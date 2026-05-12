@@ -1,0 +1,13 @@
+# Keep the public repository focused on presentation assets.
+media/screenshots_raw/
+release-assets/
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+*.pdb
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
