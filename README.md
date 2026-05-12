@@ -48,15 +48,14 @@ documentos internos de design continuam privados.
 
 ## Download
 
-Quando houver uma build pública disponível, baixe pela aba **Releases** do
-GitHub:
+Baixe a build pública de teste pela aba **Releases** do GitHub:
 
 ```text
-https://github.com/<seu-usuario>/<seu-repositorio>/releases/latest
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v0.1.0-showcase/LendasContraHordas-Windows-v0.1.0.zip
 ```
 
-O executável não deve ser commitado no repositório. Builds grandes devem ficar
-em **GitHub Releases**.
+Depois de baixar, extraia o `.zip` e abra `LendasContraHordas.exe` ou
+`Jogar Lendas Contra Hordas.bat`.
 
 ## Controles
 

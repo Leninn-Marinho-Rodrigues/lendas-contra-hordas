@@ -16,11 +16,11 @@ Hordas** without exposing the private source code.
 
 ### Distribution
 
-The Windows playable build should be attached to a GitHub Release instead of
+The Windows playable build is attached to the GitHub Release instead of being
 committed directly to the repository. Large binaries do not belong in the Git
 history.
 
-Suggested release asset name:
+Release asset:
 
 ```text
 LendasContraHordas-Windows-v0.1.0.zip
