@@ -15,6 +15,14 @@ Este repositório é uma **vitrine pública** do jogo. Ele mostra o projeto,
 prints, GIFs, notas e informações de download, mas o código-fonte completo e os
 documentos internos de design continuam privados.
 
+## Versão Atual
+
+**Versão pública atual: 1.1**
+
+Esta versão melhora a leitura e o ritmo da run, com saída de dungeon mais fácil
+de localizar, Berserker mais inteligente, limite de build em 60 slots únicos e
+mais proteção para as lendárias da classe.
+
 ## Preview
 
 ![Gameplay preview](media/gameplay-preview.gif)
@@ -48,12 +56,12 @@ documentos internos de design continuam privados.
 
 ## Download
 
-### Download rapido
+### Download rápido
 
-Baixe a build publica de teste aqui:
+Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v0.1.0-showcase/LendasContraHordas-Windows-v0.1.0.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.1/LendasContraHordas-Windows-v1.1.zip
 ```
 
 ### Como baixar e jogar
@@ -62,25 +70,46 @@ https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/downlo
 2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 412 MB.
 3. Clique com o botao direito no arquivo baixado e escolha **Extrair tudo**.
 4. Abra a pasta extraida.
-5. Execute `LendasContraHordas.exe`.
-6. Se preferir, execute `Jogar Lendas Contra Hordas.bat`.
+5. Dê dois cliques em `Jogar Lendas Contra Hordas.lnk`.
+6. Se o atalho não abrir no seu Windows, execute `LendasContraHordas.exe`.
 
 Se o Windows mostrar aviso do SmartScreen, clique em **Mais informacoes** e
 depois em **Executar mesmo assim**. Isso pode acontecer porque a build de teste
 ainda nao possui assinatura digital.
+
+### Como atualizar sem perder progresso
+
+1. Baixe o `.zip` da versão nova.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.1`.
+3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
+4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
+5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
+
+### O que vem na pasta do jogador
+
+A pasta baixada foi organizada para ser simples:
+
+```text
+LendasContraHordas.exe
+Jogar Lendas Contra Hordas.lnk
+LEIA-ME.txt
+app_icon.ico
+```
+
+Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos.
 
 ### Baixar pela pagina de Releases
 
 Tambem da para baixar pela pagina da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v0.1.0-showcase
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.1
 ```
 
 Nessa pagina, abra a area **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v0.1.0.zip
+LendasContraHordas-Windows-v1.1.zip
 ```
 
 ## Controles
