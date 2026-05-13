@@ -23,6 +23,9 @@ assignees: ""
 
 Explique a ideia.
 
+Exemplo: "Criar um monstro titan de gelo que deixa o chao escorregadio" ou
+"Adicionar uma melhoria permanente para aumentar chance de item raro".
+
 ## Por que isso combinaria com o jogo?
 
 Conte como essa ideia melhora a diversao, leitura, desafio ou progressao.

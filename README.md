@@ -97,19 +97,28 @@ LendasContraHordas-Windows-v0.1.0.zip
 
 Se voce testar o jogo, seu feedback ajuda muito.
 
-Use a aba **Issues** do GitHub:
+### Como enviar feedback pelo GitHub
+
+1. Entre na pagina de feedback:
 
 ```text
 https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/issues
 ```
 
-Voce pode abrir:
+2. Clique no botao verde **New issue**.
+3. Escolha um modelo:
 
 - **Playtest feedback**: conte como foi sua experiencia jogando.
 - **Bug report**: relate travamentos, erros, textos cortados ou sprites estranhos.
 - **Sugestao**: mande ideias de habilidades, monstros, balanceamento ou melhorias.
 
-Feedback que mais ajuda:
+4. Preencha os campos do modelo.
+5. Se puder, anexe print ou video curto arrastando o arquivo para a caixa de texto.
+6. Clique em **Submit new issue**.
+
+### O que escrever no feedback
+
+O feedback mais util costuma responder:
 
 - qual classe voce jogou;
 - quanto tempo sobreviveu;
@@ -117,6 +126,21 @@ Feedback que mais ajuda:
 - se algum texto ficou cortado;
 - se algum sprite, som ou efeito pareceu estranho;
 - prints ou videos curtos, se puder mandar.
+
+Exemplo simples:
+
+```text
+Joguei de Mago por 9 minutos no mapa inicial.
+Gostei das magias e dos efeitos, mas achei a dungeon comum dificil cedo demais.
+O texto do evento ficou um pouco grande na tela.
+Nao travou no meu PC.
+```
+
+Guia completo:
+
+```text
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/blob/main/docs/como-dar-feedback.md
+```
 
 ## Apoie o projeto
 
