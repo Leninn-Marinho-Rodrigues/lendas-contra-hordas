@@ -48,14 +48,40 @@ documentos internos de design continuam privados.
 
 ## Download
 
-Baixe a build pública de teste pela aba **Releases** do GitHub:
+### Download rapido
+
+Baixe a build publica de teste aqui:
 
 ```text
 https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v0.1.0-showcase/LendasContraHordas-Windows-v0.1.0.zip
 ```
 
-Depois de baixar, extraia o `.zip` e abra `LendasContraHordas.exe` ou
-`Jogar Lendas Contra Hordas.bat`.
+### Como baixar e jogar
+
+1. Clique no link de download acima.
+2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 412 MB.
+3. Clique com o botao direito no arquivo baixado e escolha **Extrair tudo**.
+4. Abra a pasta extraida.
+5. Execute `LendasContraHordas.exe`.
+6. Se preferir, execute `Jogar Lendas Contra Hordas.bat`.
+
+Se o Windows mostrar aviso do SmartScreen, clique em **Mais informacoes** e
+depois em **Executar mesmo assim**. Isso pode acontecer porque a build de teste
+ainda nao possui assinatura digital.
+
+### Baixar pela pagina de Releases
+
+Tambem da para baixar pela pagina da release:
+
+```text
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v0.1.0-showcase
+```
+
+Nessa pagina, abra a area **Assets** e baixe:
+
+```text
+LendasContraHordas-Windows-v0.1.0.zip
+```
 
 ## Controles
 
@@ -66,6 +92,44 @@ Depois de baixar, extraia o `.zip` e abra `LendasContraHordas.exe` ou
 | Pausar / menu | Esc |
 | Inventário | I |
 | Interagir | E |
+
+## Feedback dos jogadores
+
+Se voce testar o jogo, seu feedback ajuda muito.
+
+Use a aba **Issues** do GitHub:
+
+```text
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/issues
+```
+
+Voce pode abrir:
+
+- **Playtest feedback**: conte como foi sua experiencia jogando.
+- **Bug report**: relate travamentos, erros, textos cortados ou sprites estranhos.
+- **Sugestao**: mande ideias de habilidades, monstros, balanceamento ou melhorias.
+
+Feedback que mais ajuda:
+
+- qual classe voce jogou;
+- quanto tempo sobreviveu;
+- se o jogo ficou facil, dificil ou confuso;
+- se algum texto ficou cortado;
+- se algum sprite, som ou efeito pareceu estranho;
+- prints ou videos curtos, se puder mandar.
+
+## Apoie o projeto
+
+Lendas contra Hordas esta sendo feito por uma pessoa so, no tempo livre. Se
+voce gostou do projeto e quiser ajudar a manter as atualizacoes, pode apoiar via
+Pix:
+
+```text
+leninn.works@gmail.com
+```
+
+Qualquer apoio ajuda com tempo de desenvolvimento, testes, arte, audio,
+ferramentas e futuras builds.
 
 ## Status
 

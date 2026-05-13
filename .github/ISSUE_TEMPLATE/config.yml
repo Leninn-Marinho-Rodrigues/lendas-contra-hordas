@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Download da build de teste
+    url: https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v0.1.0-showcase
+    about: Baixe a versao jogavel mais recente.
+  - name: Apoiar via Pix
+    url: https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas#apoie-o-projeto
+    about: Veja a chave Pix no README do projeto.
