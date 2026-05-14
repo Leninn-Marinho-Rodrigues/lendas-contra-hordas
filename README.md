@@ -17,18 +17,22 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.3**
+**Versão pública atual: 1.3.1**
 
 Esta versão corrige a progressão final da build e reforça a preservação de save:
 limite de 75 slots únicos, sem novas habilidades depois do limite, upgrades
 somente do que o jogador já possui até maximizar, e migração automática de saves
-antigos para evitar perda de progresso.
+antigos para evitar perda de progresso. A correção 1.3.1 também fecha o caso em
+que itens equipados empurravam a build para 77/75 e ainda deixavam cartas novas
+aparecerem.
 
-### O que mudou na 1.3
+### O que mudou na 1.3.1
 
 - **Build maior:** o limite subiu para 75 habilidades/passivas únicas.
 - **Sem novidades depois do limite:** ao fechar os 75 slots, não entram novas
   habilidades, passivas ou cartas diferentes.
+- **Correção de slots reais:** itens equipados agora entram no bloqueio do
+  level-up, então uma build 75/75 ou maior só melhora cartas já escolhidas.
 - **Maximização até o fim:** após o limite, o level-up só oferece melhorias que o
   jogador já possui e que ainda não chegaram ao máximo.
 - **Ouro só depois de maximizar:** quando todas as melhorias elegíveis estiverem
@@ -76,7 +80,7 @@ antigos para evitar perda de progresso.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.3/LendasContraHordas-Windows-v1.3.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.3.1/LendasContraHordas-Windows-v1.3.1.zip
 ```
 
 ### Como baixar e jogar
@@ -95,7 +99,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.3`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.3.1`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -118,13 +122,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.3
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.3.1
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.3.zip
+LendasContraHordas-Windows-v1.3.1.zip
 ```
 
 ## Controles

@@ -3,8 +3,24 @@
 As versões públicas seguem uma numeração simples:
 
 - `1.1`, `1.2`, `1.3`... para atualizações públicas pedidas pelo desenvolvedor.
+- Correções pequenas podem usar patch, como `1.3.1`, quando servem para corrigir
+  uma versão recém-publicada sem virar uma atualização grande.
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
+
+## Versão 1.3.1 - 2026-05-14
+
+### Correção da build fechada
+
+- Corrigido o caso em que a HUD mostrava uma build acima de 75/75 slots, mas o
+  level-up ainda oferecia habilidades novas.
+- O limite agora usa os slots reais da build, incluindo habilidades/passivas e
+  itens equipados.
+- Depois de 75/75, o jogo só oferece melhorias que o jogador já possui e que
+  ainda não estão no nível máximo.
+- Lendárias novas não são injetadas quando a build já está cheia; lendárias já
+  possuídas continuam podendo subir de nível.
+- Quando tudo que já está na build estiver maximizado, o level-up vira ouro.
 
 ## Versão 1.3 - 2026-05-14
 

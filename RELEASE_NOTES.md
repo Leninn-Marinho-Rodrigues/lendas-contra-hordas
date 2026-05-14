@@ -1,5 +1,33 @@
 # Release Notes
 
+## Versão 1.3.1
+
+Esta correção fecha o bug em que a HUD podia mostrar a build acima de 75/75
+slots, mas o level-up ainda oferecia habilidades novas. O limite agora usa os
+slots reais da build, incluindo itens equipados, e depois do limite só aparecem
+melhorias já escolhidas que ainda possam subir de nível.
+
+### Principais mudanças desde a 1.3
+
+- Build cheia agora é calculada pelo mesmo contador mostrado na HUD.
+- Se itens empurrarem a build para 75/75 ou mais, cartas novas deixam de aparecer.
+- Lendárias novas não são injetadas depois do limite.
+- Lendárias já possuídas continuam podendo melhorar.
+- Quando tudo que o jogador já tem estiver maximizado, novos níveis viram ouro.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.3.1.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.3
 
 Esta atualização corrige pontos que ficaram faltando na progressão da build e
