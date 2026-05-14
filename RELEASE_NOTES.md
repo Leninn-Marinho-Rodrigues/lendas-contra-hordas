@@ -1,5 +1,44 @@
 # Release Notes
 
+## Versão 1.3
+
+Esta atualização corrige pontos que ficaram faltando na progressão da build e
+na preservação de save. O foco foi garantir que, depois do limite, o jogador não
+receba habilidades novas por acidente e que builds novas consigam recuperar
+progresso salvo por versões anteriores.
+
+### Principais mudanças desde a 1.2
+
+- Limite de habilidades/passivas únicas aumentado de 70 para 75.
+- Depois dos 75 espaços, não aparecem cartas novas.
+- Após o limite, o level-up só oferece habilidades/passivas que o jogador já tem
+  e que ainda podem ser melhoradas.
+- Quando tudo que o jogador possui estiver no máximo, novos níveis viram ouro.
+- Save agora procura e mescla progresso antigo de caminhos anteriores.
+- A migração preserva ouro, classes liberadas, melhorias permanentes e
+  estatísticas importantes usando o maior progresso encontrado.
+
+### Comparação rápida
+
+| 1.2 | 1.3 |
+| --- | --- |
+| Build com 70 espaços únicos | Build com 75 espaços únicos |
+| Depois do limite ainda dependia de filtros amplos | Depois do limite só entra o que já está na build |
+| Save novo podia esconder progresso antigo | Save antigo é encontrado e mesclado automaticamente |
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.3.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`; se a versão anterior deixou progresso em outro
+caminho conhecido, a build tenta recuperar e mesclar automaticamente.
+
 ## Versão 1.2
 
 Esta atualização expande a build jogável e melhora o fechamento das runs. O

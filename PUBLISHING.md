@@ -44,7 +44,7 @@ A versão só deve avançar quando o desenvolvedor pedir uma publicação nova n
 GitHub. Anexe o build Windows como asset da release, por exemplo:
 
 ```text
-LendasContraHordas-Windows-v1.2.zip
+LendasContraHordas-Windows-v1.3.zip
 ```
 
 Não commit arquivos `.exe` ou `.zip` no repositório.

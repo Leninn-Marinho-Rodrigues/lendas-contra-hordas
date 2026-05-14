@@ -6,6 +6,31 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.3 - 2026-05-14
+
+### Progressão e build
+
+- Limite de habilidades/passivas únicas aumentado de 70 para 75.
+- Ao alcançar 75 espaços únicos, o jogo deixa de oferecer habilidades, passivas
+  ou cartas novas.
+- Depois do limite, o level-up passa a mostrar apenas melhorias que o jogador já
+  possui e que ainda podem subir de nível.
+- Quando todas as melhorias elegíveis estiverem no nível máximo, o level-up vira
+  ouro automaticamente.
+- A regra também impede que cartas novas entrem por acidente depois do limite,
+  mantendo a build fechada e mais previsível.
+
+### Save e atualização
+
+- Sistema de save agora procura locais usados por versões anteriores e mescla o
+  progresso encontrado.
+- A migração preserva ouro, classes liberadas, melhorias permanentes e
+  estatísticas importantes usando sempre o maior progresso encontrado.
+- Isso evita que uma build nova comece com save vazio quando já existia progresso
+  em `user_data` ou em outro caminho antigo.
+- O save principal continua em `Saved Games\LendasContraHordas`, fora da pasta
+  do jogo, para facilitar atualizações sem apagar progresso.
+
 ## Versão 1.2 - 2026-05-13
 
 ### Progressão e upgrades

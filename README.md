@@ -17,33 +17,26 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.2**
+**Versão pública atual: 1.3**
 
-Esta versão expande a progressão da run e melhora a apresentação geral: limite
-de build em 70 slots únicos, upgrades depois da build cheia, invocações mais
-fortes, tela de vitória, HUD de eventos mais limpo, música de menu e auditorias
-de sprites/ícones reforçadas.
+Esta versão corrige a progressão final da build e reforça a preservação de save:
+limite de 75 slots únicos, sem novas habilidades depois do limite, upgrades
+somente do que o jogador já possui até maximizar, e migração automática de saves
+antigos para evitar perda de progresso.
 
-### O que mudou na 1.2
+### O que mudou na 1.3
 
-- **Build maior:** o limite subiu para 70 habilidades/passivas únicas.
-- **Progressão depois do limite:** ao fechar os 70 slots, o jogo ainda oferece
-  habilidades já escolhidas que ainda não chegaram ao nível máximo.
-- **Ouro só no fim da build:** quando não existir mais nada elegível para upar,
-  cada novo nível vira recompensa em ouro.
-- **Lendárias priorizadas:** lendárias da própria classe continuam protegidas; se
-  o jogador já possui uma lendária que pode subir de nível, ela tem prioridade.
-- **Invocador fortalecido:** começa naturalmente com mais espaços de invocação,
-  dragões lendários mais agressivos e invocações que se curam ao abater inimigos.
-- **Hydra e Beholder ajustados:** invocações supremas ficaram maiores, mais
-  rápidas, mais fortes e com comportamento de combate mais inteligente.
-- **Mago menos frágil no começo:** a classe recebeu um pequeno reforço inicial de
-  vida, defesa e poder mágico.
-- **Mais clareza na run:** HUD de eventos ficou mais limpo e a vitória agora
-  mostra um card com resumo da partida antes de voltar ao menu.
-- **Áudio novo:** menu recebeu uma trilha de aventura e mistério.
-- **QA mais rígido:** sprites, VFX, ícones, HUD e animações passam por auditorias
-  automatizadas antes do pacote público.
+- **Build maior:** o limite subiu para 75 habilidades/passivas únicas.
+- **Sem novidades depois do limite:** ao fechar os 75 slots, não entram novas
+  habilidades, passivas ou cartas diferentes.
+- **Maximização até o fim:** após o limite, o level-up só oferece melhorias que o
+  jogador já possui e que ainda não chegaram ao máximo.
+- **Ouro só depois de maximizar:** quando todas as melhorias elegíveis estiverem
+  no máximo, o level-up vira ouro automaticamente.
+- **Save preservado:** a build procura saves antigos em locais usados por
+  versões anteriores e mescla ouro, classes, melhorias e estatísticas.
+- **Atualização segura:** trocar a pasta do jogo não deve apagar progresso, já
+  que o save fica fora da pasta baixada.
 
 ## Preview
 
@@ -83,7 +76,7 @@ de sprites/ícones reforçadas.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.2/LendasContraHordas-Windows-v1.2.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.3/LendasContraHordas-Windows-v1.3.zip
 ```
 
 ### Como baixar e jogar
@@ -102,7 +95,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.2`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.3`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -125,13 +118,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.2
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.3
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.2.zip
+LendasContraHordas-Windows-v1.3.zip
 ```
 
 ## Controles
