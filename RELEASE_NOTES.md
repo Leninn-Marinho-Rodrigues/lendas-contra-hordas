@@ -2,11 +2,15 @@
 
 ## Versão 1.1
 
-Esta atualização publica a build atual do jogo com foco em leitura, ritmo e
-regras de progressão.
+Esta atualização substitui a build pública anterior da vitrine por uma versão
+mais clara para jogar e mais organizada para baixar. O foco principal foi
+leitura de textos, progressão de build, comportamento do Berserker e apresentação
+do projeto no GitHub.
 
 ### Principais mudanças desde a vitrine anterior
 
+- Revisão ortográfica de textos visíveis no jogo: menus, cards de classe,
+  eventos, vendedor, inventário, level-up, atributos e tela de morte.
 - Saída da dungeon maior, mais brilhante e com marcador de direção.
 - Berserker do Guerreiro com IA melhor para caçar, priorizar Titans e prender
   inimigos grandes nos cantos do mapa.
@@ -19,6 +23,17 @@ regras de progressão.
 - Item novo coletado com build cheia vira ouro.
 - Vendedor não cobra item único se a build estiver cheia.
 - Pasta jogável organizada com atalho, executável, ícone e LEIA-ME.
+- Galeria e GIF de gameplay atualizados para representar a build 1.1.
+
+### Comparação rápida
+
+| Antes | Agora na 1.1 |
+| --- | --- |
+| Textos sem revisão completa | Textos principais revisados com acentos e clareza |
+| Saída de dungeon menos evidente | Portal maior, mais brilhante e sinalizado |
+| Berserker podia gastar ativação em momento ruim | Berserker avalia melhor o mapa e prioriza alvos relevantes |
+| Build podia ficar confusa com repetição de melhorias | 60 slots únicos, com lendárias da classe protegidas |
+| Página pública mais simples | README, changelog, prints e GIF explicam melhor a versão |
 
 ### Arquivo de download
 

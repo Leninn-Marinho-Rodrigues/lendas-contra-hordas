@@ -2,7 +2,7 @@
 
 Obrigado por testar **Lendas contra Hordas**.
 
-O jogo ainda esta em desenvolvimento, entao feedback de jogadores ajuda muito a
+O jogo ainda está em desenvolvimento, então feedback de jogadores ajuda muito a
 decidir o que melhorar primeiro.
 
 ## Onde mandar feedback
@@ -17,23 +17,23 @@ https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/issues
 
 1. Abra o link de Issues.
 2. Clique em **New issue**.
-3. Escolha um dos modelos disponiveis.
+3. Escolha um dos modelos disponíveis.
 4. Escreva seu relato.
-5. Anexe prints ou videos se tiver.
+5. Anexe prints ou vídeos se tiver.
 6. Clique em **Submit new issue**.
 
 ## Qual modelo escolher?
 
 ### Playtest feedback
 
-Use quando voce jogou uma partida e quer contar como foi a experiencia.
+Use quando você jogou uma partida e quer contar como foi a experiência.
 
 Exemplos:
 
-- "Achei o inicio muito facil."
-- "A dungeon ficou dificil demais."
+- "Achei o início muito fácil."
+- "A dungeon ficou difícil demais."
 - "Gostei do Guerreiro, mas o Mago pareceu fraco."
-- "O evento titanico foi legal, mas nao entendi o objetivo."
+- "O evento titânico foi legal, mas não entendi o objetivo."
 
 ### Bug report
 
@@ -42,16 +42,16 @@ Use quando algo quebrou, travou ou parece errado.
 Exemplos:
 
 - jogo fechou sozinho;
-- sprite ficou invisivel;
+- sprite ficou invisível;
 - texto ficou cortado;
 - som estourou;
-- botao nao funcionou;
-- item nao fez efeito;
+- botão não funcionou;
+- item não fez efeito;
 - habilidade mostrou icone errado.
 
-### Sugestao
+### Sugestão
 
-Use quando voce tem uma ideia nova.
+Use quando você tem uma ideia nova.
 
 Exemplos:
 
@@ -61,7 +61,7 @@ Exemplos:
 - ajuste de dificuldade;
 - melhoria de HUD;
 - ideia para dungeon;
-- melhoria de som ou musica.
+- melhoria de som ou música.
 
 ## O que mais ajuda no feedback?
 
@@ -87,13 +87,13 @@ Tempo: 11 minutos
 Gostei bastante das flechas ricocheteando e dos drops.
 Achei que depois de 8 minutos veio monstro demais de uma vez.
 O evento da Lua Vermelha ficou legal, mas a tela ficou carregada.
-Nao tive travamento.
+Não tive travamento.
 
-Sugestao: deixar o aviso do evento aparecer 2 segundos antes dos monstros
-ficarem mais rapidos.
+Sugestão: deixar o aviso do evento aparecer 2 segundos antes dos monstros
+ficarem mais rápidos.
 ```
 
-## Como anexar print ou video
+## Como anexar print ou vídeo
 
 Na tela de escrever a Issue, arraste o arquivo para dentro da caixa de texto.
 O GitHub faz o upload automaticamente e coloca o link no comentario.
@@ -107,17 +107,17 @@ Prints que ajudam:
 - tela de vendedor;
 - erro do Windows, se aparecer.
 
-Videos curtos tambem ajudam muito quando o problema envolve movimento,
+Vídeos curtos também ajudam muito quando o problema envolve movimento,
 travamento, habilidade ou som.
 
-## Se voce nao tiver conta no GitHub
+## Se você não tiver conta no GitHub
 
-Voce pode mandar o feedback para quem te enviou o jogo e pedir para a pessoa
+Você pode mandar o feedback para quem te enviou o jogo e pedir para a pessoa
 abrir uma Issue no GitHub com seu relato.
 
 ## Apoio ao projeto
 
-O jogo e feito por uma pessoa so. Se quiser apoiar o desenvolvimento:
+O jogo é feito por uma pessoa só. Se quiser apoiar o desenvolvimento:
 
 ```text
 Pix: leninn.works@gmail.com

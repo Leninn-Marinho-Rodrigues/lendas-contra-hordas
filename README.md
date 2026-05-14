@@ -23,6 +23,21 @@ Esta versão melhora a leitura e o ritmo da run, com saída de dungeon mais fác
 de localizar, Berserker mais inteligente, limite de build em 60 slots únicos e
 mais proteção para as lendárias da classe.
 
+### O que mudou na 1.1
+
+- **Textos revisados:** menus, eventos, vendedor, inventário, level-up e tela de
+  morte passaram por revisão de ortografia e acentuação.
+- **Berserker mais inteligente:** o Guerreiro caça melhor, evita ativar em
+  momentos vazios e pressiona criaturas grandes com mais decisão.
+- **Dungeons mais legíveis:** a saída ficou maior, mais brilhante e mais fácil
+  de encontrar quando a tela está cheia de monstros.
+- **Build mais controlada:** o limite agora é de 60 slots únicos; melhorar uma
+  habilidade já escolhida não ocupa novos slots.
+- **Lendárias protegidas:** o limite de build reserva espaço para as lendárias
+  da própria classe.
+- **Pasta de jogador limpa:** a build vem com executável, atalho, ícone e
+  `LEIA-ME.txt`, sem arquivos de desenvolvimento.
+
 ## Preview
 
 ![Gameplay preview](media/gameplay-preview.gif)
@@ -39,7 +54,7 @@ mais proteção para as lendárias da classe.
 
 | Arqueiro | Invocador |
 | --- | --- |
-| ![Arqueiro em combate](media/screenshots/archer-field.png) | ![Invocador em evento titanico](media/screenshots/summoner-titan-event.png) |
+| ![Arqueiro em combate](media/screenshots/archer-field.png) | ![Invocador em evento titânico](media/screenshots/summoner-titan-event.png) |
 
 | Level-up | Vendedor |
 | --- | --- |
@@ -68,14 +83,14 @@ https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/downlo
 
 1. Clique no link de download acima.
 2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 412 MB.
-3. Clique com o botao direito no arquivo baixado e escolha **Extrair tudo**.
-4. Abra a pasta extraida.
+3. Clique com o botão direito no arquivo baixado e escolha **Extrair tudo**.
+4. Abra a pasta extraída.
 5. Dê dois cliques em `Jogar Lendas Contra Hordas.lnk`.
 6. Se o atalho não abrir no seu Windows, execute `LendasContraHordas.exe`.
 
-Se o Windows mostrar aviso do SmartScreen, clique em **Mais informacoes** e
+Se o Windows mostrar aviso do SmartScreen, clique em **Mais informações** e
 depois em **Executar mesmo assim**. Isso pode acontecer porque a build de teste
-ainda nao possui assinatura digital.
+ainda não possui assinatura digital.
 
 ### Como atualizar sem perder progresso
 
@@ -98,15 +113,15 @@ app_icon.ico
 
 Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos.
 
-### Baixar pela pagina de Releases
+### Baixar pela página de Releases
 
-Tambem da para baixar pela pagina da release:
+Também dá para baixar pela página da release:
 
 ```text
 https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.1
 ```
 
-Nessa pagina, abra a area **Assets** e baixe:
+Nessa página, abra a área **Assets** e baixe:
 
 ```text
 LendasContraHordas-Windows-v1.1.zip
@@ -124,45 +139,45 @@ LendasContraHordas-Windows-v1.1.zip
 
 ## Feedback dos jogadores
 
-Se voce testar o jogo, seu feedback ajuda muito.
+Se você testar o jogo, seu feedback ajuda muito.
 
 ### Como enviar feedback pelo GitHub
 
-1. Entre na pagina de feedback:
+1. Entre na página de feedback:
 
 ```text
 https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/issues
 ```
 
-2. Clique no botao verde **New issue**.
+2. Clique no botão verde **New issue**.
 3. Escolha um modelo:
 
-- **Playtest feedback**: conte como foi sua experiencia jogando.
+- **Playtest feedback**: conte como foi sua experiência jogando.
 - **Bug report**: relate travamentos, erros, textos cortados ou sprites estranhos.
-- **Sugestao**: mande ideias de habilidades, monstros, balanceamento ou melhorias.
+- **Sugestão**: mande ideias de habilidades, monstros, balanceamento ou melhorias.
 
 4. Preencha os campos do modelo.
-5. Se puder, anexe print ou video curto arrastando o arquivo para a caixa de texto.
+5. Se puder, anexe print ou vídeo curto arrastando o arquivo para a caixa de texto.
 6. Clique em **Submit new issue**.
 
 ### O que escrever no feedback
 
-O feedback mais util costuma responder:
+O feedback mais útil costuma responder:
 
-- qual classe voce jogou;
+- qual classe você jogou;
 - quanto tempo sobreviveu;
-- se o jogo ficou facil, dificil ou confuso;
+- se o jogo ficou fácil, difícil ou confuso;
 - se algum texto ficou cortado;
 - se algum sprite, som ou efeito pareceu estranho;
-- prints ou videos curtos, se puder mandar.
+- prints ou vídeos curtos, se puder mandar.
 
 Exemplo simples:
 
 ```text
 Joguei de Mago por 9 minutos no mapa inicial.
-Gostei das magias e dos efeitos, mas achei a dungeon comum dificil cedo demais.
+Gostei das magias e dos efeitos, mas achei a dungeon comum difícil cedo demais.
 O texto do evento ficou um pouco grande na tela.
-Nao travou no meu PC.
+Não travou no meu PC.
 ```
 
 Guia completo:
@@ -173,15 +188,15 @@ https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/blob/main/docs/
 
 ## Apoie o projeto
 
-Lendas contra Hordas esta sendo feito por uma pessoa so, no tempo livre. Se
-voce gostou do projeto e quiser ajudar a manter as atualizacoes, pode apoiar via
+Lendas contra Hordas está sendo feito por uma pessoa só, no tempo livre. Se
+você gostou do projeto e quiser ajudar a manter as atualizações, pode apoiar via
 Pix:
 
 ```text
 leninn.works@gmail.com
 ```
 
-Qualquer apoio ajuda com tempo de desenvolvimento, testes, arte, audio,
+Qualquer apoio ajuda com tempo de desenvolvimento, testes, arte, áudio,
 ferramentas e futuras builds.
 
 ## Status

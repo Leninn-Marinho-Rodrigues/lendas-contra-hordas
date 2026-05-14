@@ -39,8 +39,18 @@ As versões públicas seguem uma numeração simples:
 ### Interface e leitura
 
 - HUD da build agora mostra `Build: X/60 slots`.
+- Revisão ortográfica dos textos principais do jogo, incluindo menus, eventos,
+  cards de classe, inventário, vendedor e tela de morte.
+- `LEIA-ME.txt` do pacote jogável foi revisado com instruções mais claras de
+  abertura, controles e atualização sem perder save.
 - Textos e instruções públicas de download foram simplificados.
 - Pasta de jogador organizada para abrir pelo atalho.
+
+### Vitrine pública
+
+- Prints da galeria e GIF de gameplay atualizados com a build 1.1 revisada.
+- README reorganizado para explicar melhor as melhorias desta versão.
+- Release notes ampliadas para comparar a versão 1.1 com a vitrine anterior.
 
 ## Public Showcase v0.1.0 - 2026-05-12
 
