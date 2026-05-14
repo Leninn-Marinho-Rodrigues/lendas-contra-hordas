@@ -6,6 +6,51 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.2 - 2026-05-13
+
+### Progressão e upgrades
+
+- Limite de habilidades/passivas únicas aumentado de 60 para 70.
+- Melhorar uma habilidade já escolhida continua contando como apenas 1 espaço da
+  build, independentemente do nível dela.
+- Depois de ocupar os 70 espaços, o level-up ainda oferece habilidades e
+  passivas já escolhidas que ainda não chegaram ao nível máximo.
+- Quando todas as opções elegíveis estiverem no máximo, o level-up passa a virar
+  ouro automaticamente.
+- Lendárias da classe continuam protegidas dentro do limite.
+- Se o jogador já possui uma lendária da classe que ainda pode melhorar, ela tem
+  prioridade sobre novas lendárias.
+
+### Classes e invocações
+
+- Invocador começa naturalmente com +2 espaços de invocação.
+- Invocações recuperam 3% da vida máxima ao matar inimigos.
+- Dragões lendários do Invocador ficaram mais fortes, com bolas de fogo maiores,
+  queimadura escalável e acúmulos de poder.
+- Ao fortalecer os três dragões principais, surge um quarto dragão focado em
+  ataques à distância.
+- Hydra suprema recebeu mais tamanho, velocidade, dano, crescimento por devorar
+  inimigos e novas ações ofensivas.
+- Beholder recebeu mais velocidade, dano e IA de alvo melhorada para usar lasers
+  em grupos perigosos.
+- Mago começa com um pouco mais de vida, defesa e poder mágico inicial.
+
+### Interface, áudio e fechamento de run
+
+- HUD de eventos ficou mais limpo: a tela mostra apenas um aviso curto, e o card
+  detalhado abre quando o jogador clica.
+- Ao concluir uma fase, o jogo mostra uma tela de vitória com abates, ouro, XP e
+  nível final antes de voltar ao menu.
+- Menu ganhou música própria com clima de aventura e mistério.
+- Processo de QA v1.2 documentado e automatizado em `scripts/run_v1_2_quality_gate.ps1`.
+
+### Qualidade técnica
+
+- Auditorias de sprites, VFX, ícones, HUD e fluidez dos personagens foram
+  reforçadas.
+- O pacote do jogador continua preservando o save local em
+  `Saved Games\LendasContraHordas`, para que atualizações não apaguem progresso.
+
 ## Versão 1.1 - 2026-05-13
 
 ### Melhorias de gameplay

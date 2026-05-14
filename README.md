@@ -17,26 +17,33 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.1**
+**Versão pública atual: 1.2**
 
-Esta versão melhora a leitura e o ritmo da run, com saída de dungeon mais fácil
-de localizar, Berserker mais inteligente, limite de build em 60 slots únicos e
-mais proteção para as lendárias da classe.
+Esta versão expande a progressão da run e melhora a apresentação geral: limite
+de build em 70 slots únicos, upgrades depois da build cheia, invocações mais
+fortes, tela de vitória, HUD de eventos mais limpo, música de menu e auditorias
+de sprites/ícones reforçadas.
 
-### O que mudou na 1.1
+### O que mudou na 1.2
 
-- **Textos revisados:** menus, eventos, vendedor, inventário, level-up e tela de
-  morte passaram por revisão de ortografia e acentuação.
-- **Berserker mais inteligente:** o Guerreiro caça melhor, evita ativar em
-  momentos vazios e pressiona criaturas grandes com mais decisão.
-- **Dungeons mais legíveis:** a saída ficou maior, mais brilhante e mais fácil
-  de encontrar quando a tela está cheia de monstros.
-- **Build mais controlada:** o limite agora é de 60 slots únicos; melhorar uma
-  habilidade já escolhida não ocupa novos slots.
-- **Lendárias protegidas:** o limite de build reserva espaço para as lendárias
-  da própria classe.
-- **Pasta de jogador limpa:** a build vem com executável, atalho, ícone e
-  `LEIA-ME.txt`, sem arquivos de desenvolvimento.
+- **Build maior:** o limite subiu para 70 habilidades/passivas únicas.
+- **Progressão depois do limite:** ao fechar os 70 slots, o jogo ainda oferece
+  habilidades já escolhidas que ainda não chegaram ao nível máximo.
+- **Ouro só no fim da build:** quando não existir mais nada elegível para upar,
+  cada novo nível vira recompensa em ouro.
+- **Lendárias priorizadas:** lendárias da própria classe continuam protegidas; se
+  o jogador já possui uma lendária que pode subir de nível, ela tem prioridade.
+- **Invocador fortalecido:** começa naturalmente com mais espaços de invocação,
+  dragões lendários mais agressivos e invocações que se curam ao abater inimigos.
+- **Hydra e Beholder ajustados:** invocações supremas ficaram maiores, mais
+  rápidas, mais fortes e com comportamento de combate mais inteligente.
+- **Mago menos frágil no começo:** a classe recebeu um pequeno reforço inicial de
+  vida, defesa e poder mágico.
+- **Mais clareza na run:** HUD de eventos ficou mais limpo e a vitória agora
+  mostra um card com resumo da partida antes de voltar ao menu.
+- **Áudio novo:** menu recebeu uma trilha de aventura e mistério.
+- **QA mais rígido:** sprites, VFX, ícones, HUD e animações passam por auditorias
+  automatizadas antes do pacote público.
 
 ## Preview
 
@@ -76,7 +83,7 @@ mais proteção para as lendárias da classe.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.1/LendasContraHordas-Windows-v1.1.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.2/LendasContraHordas-Windows-v1.2.zip
 ```
 
 ### Como baixar e jogar
@@ -95,7 +102,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.1`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.2`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -118,13 +125,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.1
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.2
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.1.zip
+LendasContraHordas-Windows-v1.2.zip
 ```
 
 ## Controles

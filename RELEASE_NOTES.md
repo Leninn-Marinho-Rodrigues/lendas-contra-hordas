@@ -1,5 +1,54 @@
 # Release Notes
 
+## Versão 1.2
+
+Esta atualização expande a build jogável e melhora o fechamento das runs. O
+foco principal foi deixar o limite de habilidades mais flexível, fortalecer o
+Invocador, melhorar invocações supremas, limpar o HUD de eventos, adicionar tela
+de vitória e reforçar a validação automática de sprites, VFX, ícones e HUD.
+
+### Principais mudanças desde a 1.1
+
+- Limite de habilidades/passivas únicas aumentado de 60 para 70.
+- Depois dos 70 espaços, o jogo ainda oferece upgrades já escolhidos que ainda
+  não chegaram ao nível máximo.
+- Quando não houver mais upgrade elegível, o level-up passa a virar ouro.
+- Lendárias da classe continuam protegidas e lendárias já possuídas têm
+  prioridade de evolução.
+- Invocador começa com +2 espaços de invocação.
+- Dragões lendários ficaram mais fortes, com bolas de fogo maiores, queimadura
+  escalável e um quarto dragão de ataque à distância quando o pacto evolui.
+- Invocações se curam ao matar inimigos.
+- Hydra e Beholder foram reforçados em tamanho, velocidade, dano e IA.
+- Mago recebeu pequeno reforço inicial de sobrevivência e poder mágico.
+- HUD de eventos ficou compacto, com detalhes sob clique.
+- Vitória agora mostra resumo da run: abates, ouro, XP e nível final.
+- Menu ganhou trilha de aventura e mistério.
+- QA v1.2 ganhou script consolidado para testes, auditorias de sprites, HUD, VFX
+  e ícones.
+
+### Comparação rápida
+
+| 1.1 | 1.2 |
+| --- | --- |
+| Build limitada a 60 espaços únicos | Build com 70 espaços únicos |
+| Build cheia passava mais cedo para ouro | Upgrades já escolhidos ainda podem ser maximizados |
+| Invocador com início mais lento | Invocador começa com mais invocações e dragões mais fortes |
+| Eventos com mais texto direto na HUD | Evento aparece compacto e abre detalhes sob clique |
+| Fim da fase voltava rápido ao menu | Tela de vitória mostra o resumo da run |
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.2.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save fica em `Saved Games\LendasContraHordas`
+e deve continuar funcionando entre atualizações.
+
 ## Versão 1.1
 
 Esta atualização substitui a build pública anterior da vitrine por uma versão
