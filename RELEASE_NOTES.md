@@ -1,5 +1,41 @@
 # Release Notes
 
+## Versão 1.4
+
+Esta atualização foca nas invocações supremas e na clareza do HUD. A Hydra e o
+Beholder agora têm uma leitura muito mais bonita de progressão: o jogador vê uma
+barra de farm com marcos, categorias de habilidade, próximos poderes e o que cada
+criatura já liberou durante a run.
+
+### Principais mudanças desde a 1.3.1
+
+- Nova aba visual de invocações lendárias com barra de progresso por farm.
+- Marcos separados por categorias: ofensiva, defensiva, controle, oportunidade e
+  estágio apex.
+- Descrições mais claras para as habilidades atuais e futuras da Hydra e do
+  Beholder.
+- Beholder recebeu sprite sheet nova gerada no Gemini e normalizada para a
+  pipeline strict do jogo.
+- Beholder ganhou regeneração, proteção do mago, reposicionamento e matriz de
+  oportunidade para eventos/dungeons.
+- Hydra e Beholder continuam ressurgindo sem perder stacks ou atributos
+  conquistados.
+- Abates feitos por áreas das invocações supremas contam para o farm correto.
+- Save segue compatível com versões anteriores e fica fora da pasta do jogo.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.4.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.3.1
 
 Esta correção fecha o bug em que a HUD podia mostrar a build acima de 75/75

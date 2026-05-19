@@ -8,6 +8,35 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.4 - 2026-05-19
+
+### Invocações lendárias e HUD de progressão
+
+- Criada uma aba mais rica para invocações lendárias no inventário, com barra de
+  progresso por farm, nós animados, categorias de habilidade e marcos futuros.
+- Hydra Titânica e Beholder Titânico agora exibem claramente o que já foi
+  liberado, o próximo marco e como cada criatura evolui em dano, defesa,
+  controle de campo e oportunidades de dungeon/evento.
+- A árvore de farm das invocações supremas foi expandida para 8 estágios, com
+  descrições curtas para facilitar a leitura durante a run.
+- Beholder recebeu sprite sheet nova gerada no Gemini, tratada para fundo
+  transparente e validada na pipeline strict do jogo.
+- Beholder ganhou regeneração, guarda do mago, matriz de oportunidade e
+  comportamento tático mais forte para atacar, reposicionar e proteger.
+- Hydra ganhou mais leitura de progressão e reforço de identidade como chefe
+  aliada permanente que devora, protege e domina áreas.
+- Abates feitos por áreas e projéteis das invocações supremas agora continuam
+  alimentando o farm permanente correto.
+- Respawn de Hydra e Beholder preserva os acúmulos salvos, sem apagar o poder
+  conquistado em runs longas.
+
+### Qualidade e save
+
+- Save continua fora da pasta baixada e a versão mantém compatibilidade com
+  saves anteriores, preservando ouro, classes, melhorias e estatísticas.
+- Auditorias de sprites, animações e textos de HUD foram executadas para evitar
+  sprites transparentes/cortados e textos fora das caixas.
+
 ## Versão 1.3.1 - 2026-05-14
 
 ### Correção da build fechada
