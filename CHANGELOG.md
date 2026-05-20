@@ -8,6 +8,45 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.4.5 - 2026-05-20
+
+### IA adaptativa do Beholder
+
+- Beholder Titânico recebeu uma camada de decisão mais inteligente para proteger
+  o Mago em dungeons, eventos, fim de run, cercos e situações de vida baixa.
+- A IA agora registra aprendizado por contexto e por canal de resposta.
+- Contextos monitorados: evento, dungeon épica, dungeon lendária, fim de run,
+  vida baixa do Mago, vida baixa do Beholder, multidão, projétil, zona hostil e
+  Titan.
+- Canais de resposta: guarda, esquiva, caça, controle e rota.
+- Campo Antimagia, Oráculo de Contingência, Olho Onisciente e Plano da Dungeon
+  Lendária foram priorizados para impedir mortes rápidas do Mago.
+- Beholder passou a reagir melhor a projéteis, dano em área, contato corpo a
+  corpo e gargalos de dungeon.
+- Respawn do Beholder foi corrigido para voltar em tempo curto após morte,
+  preservando farm e atributos acumulados.
+- O HUD de invocações lendárias mostra melhor a leitura de IA, conexões e
+  progresso de aprendizado.
+
+### Validação da 1.4.5
+
+- 500 simulações em dungeon épica: 500 sobrevivências, 0 mortes do Beholder.
+- 500 simulações em dungeon lendária: 500 sobrevivências, 0 mortes do Beholder.
+- 500 simulações de fim de run/eventos: 500 sobrevivências, 0 mortes do Beholder.
+- Total validado: 1.500 cenários automatizados, com fontes de perigo separadas
+  em contato, área e projétil.
+- Test suite completa executada antes da build: 250 testes passaram.
+- Build Windows recriada com smoke test aprovado.
+
+### Mídia e publicação
+
+- Adicionados três GIFs públicos da IA do Beholder: guarda do Mago, plano de
+  dungeon lendária e estresse de fim de run.
+- Adicionados cards visuais com evidência de teste, aprendizado persistente e
+  plano defensivo.
+- Link de download e documentação pública atualizados para `v1.4.5`.
+- Save continua fora da pasta do jogo e segue compatível com atualizações.
+
 ## Versão 1.4.1 - 2026-05-19
 
 ### Árvore longa das invocações supremas

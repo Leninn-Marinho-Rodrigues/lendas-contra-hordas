@@ -1,5 +1,61 @@
 # Release Notes
 
+## Versão 1.4.5
+
+Esta atualização foca no Beholder Titânico como uma criatura lendária realmente
+inteligente. Ele deixou de ser apenas uma invocação forte e passou a atuar como
+um guardião tático do Mago: observa o estado da run, identifica a origem do
+perigo, escolhe um canal de resposta e muda de comportamento quando a situação
+fica crítica.
+
+### Principais mudanças desde a 1.4.1
+
+- IA adaptativa do Beholder com leitura de 10 contextos: evento, dungeon épica,
+  dungeon lendária, fim de run, vida baixa do Mago, vida baixa do Beholder,
+  multidão, projétil, zona de dano e Titan.
+- Canais de decisão separados em guarda, esquiva, caça, controle e rota.
+- Proteção do Mago reforçada contra contato, projéteis e áreas hostis.
+- Plano especial para dungeon lendária, com escudo e contingência próprios.
+- Beholder preserva farm, aprendizado e progresso entre runs e continua
+  compatível com saves antigos.
+- Respawn do Beholder corrigido para voltar em janela curta após morte, sem
+  perder atributos acumulados.
+- HUD de invocações lendárias passou a exibir leitura de IA, conexões e avanço
+  de aprendizado.
+- Varreduras de inimigos usadas por Beholder e Hydra foram otimizadas com
+  buckets espaciais para reduzir custo em hordas grandes.
+- Novos GIFs e cards públicos mostram a guarda do Mago, o plano de dungeon
+  lendária e a pressão de fim de run.
+
+### Processo de teste e aprendizado
+
+Foram executados 1.500 cenários automatizados focados em estresse real de jogo:
+
+| Bateria | Resultado | Objetivo |
+| --- | --- | --- |
+| Dungeon épica | 500/500 sobrevivências | Validar proteção em sala difícil. |
+| Dungeon lendária | 500/500 sobrevivências | Validar plano de contingência lendário. |
+| Fim de run e eventos | 500/500 sobrevivências | Validar horda final, cerco e leitura de ameaça. |
+
+O Beholder terminou essas baterias com 0 mortes registradas nos cenários finais
+e com respostas separadas para contato, área e projéteis. O objetivo não é criar
+invencibilidade artificial para o jogador, mas dar ao Mago uma defesa lendária
+que pareça esperta, útil e coerente com uma criatura descrita como extremamente
+inteligente.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.4.5.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.4.1
 
 Esta correção evolui a atualização 1.4: a Hydra Titânica e o Beholder Titânico

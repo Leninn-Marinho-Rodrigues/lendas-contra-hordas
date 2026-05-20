@@ -17,33 +17,34 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.4.1**
+**Versão pública atual: 1.4.5**
 
-Esta versão amplia novamente a árvore de farm das invocações supremas. Hydra
-Titânica e Beholder Titânico agora têm 25 marcos de evolução, incluindo metas de
-farm extremo acima de 5.000 abates/focos e recompensas de longo prazo para quem
-quer transformar essas criaturas em objetivos de campanha.
+Esta versão transforma o Beholder Titânico em uma invocação de proteção muito
+mais inteligente para o Mago. A IA agora registra aprendizado por contexto,
+separa ameaças por fonte de perigo e escolhe respostas diferentes para dungeon
+épica, dungeon lendária, eventos, fim de run, Titans, projéteis, dano em área e
+risco imediato ao Mago.
 
-### O que mudou na 1.4.1
+### O que mudou na 1.4.5
 
-- **Árvore estendida:** Hydra e Beholder passam de 16 para 25 marcos de farm.
-- **Farm extremo:** novos marcos chegam a 30.000 banquetes da Hydra e 56.000
-  focos do Beholder, com upgrades pensados para runs e saves muito avançados.
-- **Hydra mais útil em dungeons:** colheita de dungeon, muralha de cabeças,
-  escudo mais forte, zonas ácidas no portal, mordida de cerco e recompensas
-  extras em abates raros.
-- **Beholder mais estratégico:** telemetria arcana, campo antimagia, bolhas de
-  fase, coleta de recursos, raios próprios e proteção mais inteligente para o
-  Mago.
-- **Áudio lendário:** Hydra recebeu mordida, rugido profundo e passos pesados
-  adicionais; Beholder recebeu sons próprios de raio, feixe central e cúpula
-  antimagia.
-- **Ícones mais claros:** a aba de invocações lendárias usa símbolos visuais para
-  ofensiva, defesa, controle, oportunidade e ápice.
-- **Farm com função real:** os novos marcos não são só texto; eles ativam cura,
-  controle de campo, debuffs, drops e proteção em situações perigosas.
-- **Novas mídias públicas:** prints e GIF mostram a nova trilha lendária e uma
-  cena de dungeon com os efeitos ativos.
+- **IA adaptativa do Beholder:** leitura de cenário com contextos de dungeon,
+  evento, cerco, vida baixa, projéteis, contato, áreas hostis e Titans.
+- **Canais de decisão:** o Beholder alterna entre guarda, esquiva, caça,
+  controle e rota, em vez de apenas atacar o alvo mais perto.
+- **Proteção do Mago:** Campo Antimagia, Oráculo de Contingência e Olho
+  Onisciente entram com mais prioridade quando o Mago está em perigo.
+- **Plano de dungeon lendária:** a IA usa um plano próprio para salas letais,
+  gargalos, zonas de dano e inimigos resistentes.
+- **Estresse de fim de run:** foram validados 500 cenários de horda final, com
+  o Beholder mantendo o Mago vivo e limpando ameaças de contato, área e projétil.
+- **Aprendizado persistente:** estatísticas de leitura e resposta ficam salvas no
+  progresso do jogador, sem apagar saves antigos.
+- **Performance:** varreduras caras de inimigos foram otimizadas com buckets
+  espaciais para reduzir travamentos quando há muita criatura em campo.
+- **Respawn corrigido:** o Beholder volta mais rápido após morrer e preserva o
+  farm conquistado.
+- **Evidência pública:** a vitrine recebeu três GIFs novos e cards de teste
+  mostrando guarda do Mago, plano de dungeon e pressão de fim de run.
 - **Save preservado:** a build mantém a busca e mescla de saves antigos, evitando
   perda de progresso entre versões.
 
@@ -51,7 +52,11 @@ quer transformar essas criaturas em objetivos de campanha.
 
 ![Gameplay preview](media/gameplay-preview.gif)
 
-![Árvore lendária 1.4.1](media/legendary-summons-v1-4-1.gif)
+![Beholder protegendo o Mago](media/beholder-ai-v1-4-5-guard.gif)
+
+![Plano de dungeon lendária](media/beholder-ai-v1-4-5-dungeon.gif)
+
+![Estresse de fim de run](media/beholder-ai-v1-4-5-endgame.gif)
 
 ## Galeria
 
@@ -75,6 +80,12 @@ quer transformar essas criaturas em objetivos de campanha.
 | --- |
 | ![Progressão de invocações lendárias](media/screenshots/legendary-summons-progress.png) |
 
+| Novidades 1.4.5 |
+| --- |
+| ![Evidência da IA do Beholder](media/screenshots/beholder-ai-v1-4-5-summary.png) |
+| ![Aprendizado persistente do Beholder](media/screenshots/beholder-ai-v1-4-5-learning.png) |
+| ![Plano defensivo em dungeon lendária](media/screenshots/beholder-ai-v1-4-5-dungeon-plan.png) |
+
 | Novidades 1.4.1 |
 | --- |
 | ![Árvore de farm 1.4.1](media/screenshots/legendary-summons-v1-4-1-top.png) |
@@ -97,13 +108,13 @@ quer transformar essas criaturas em objetivos de campanha.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.4.1/LendasContraHordas-Windows-v1.4.1.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.4.5/LendasContraHordas-Windows-v1.4.5.zip
 ```
 
 ### Como baixar e jogar
 
 1. Clique no link de download acima.
-2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 412 MB.
+2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 440 MB.
 3. Clique com o botão direito no arquivo baixado e escolha **Extrair tudo**.
 4. Abra a pasta extraída.
 5. Dê dois cliques em `Jogar Lendas Contra Hordas.lnk`.
@@ -116,7 +127,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.4.1`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.4.5`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -139,13 +150,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.4.1
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.4.5
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.4.1.zip
+LendasContraHordas-Windows-v1.4.5.zip
 ```
 
 ## Controles
