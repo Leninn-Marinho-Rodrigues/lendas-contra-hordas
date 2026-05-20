@@ -1,5 +1,38 @@
 # Release Notes
 
+## Versão 1.4.1
+
+Esta correção evolui a atualização 1.4: a Hydra Titânica e o Beholder Titânico
+agora têm uma árvore de farm mais longa, com 16 marcos e efeitos jogáveis para
+runs avançadas, dungeons e situações de emergência.
+
+### Principais mudanças desde a 1.4
+
+- Árvore de farm das invocações supremas expandida de 8 para 16 marcos.
+- Hydra ganhou colheita de dungeon, recompensas extras em abates raros, defesa
+  mais forte, muralha de cabeças, zonas ácidas na saída da dungeon e mais
+  regeneração.
+- Beholder ganhou telemetria arcana, campo antimagia, cura de contingência,
+  bolhas de fase, foco em elites e melhor aproveitamento de recursos de dungeon.
+- O HUD de invocações lendárias agora apresenta a trilha longa, grupos de
+  habilidade e marcos futuros com mais espaço visual.
+- Novas mídias públicas foram adicionadas: GIF da árvore lendária, prints da
+  progressão e imagem de dungeon com os efeitos ativos.
+- Save segue compatível com versões anteriores e preserva farm já acumulado.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.4.1.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.4
 
 Esta atualização foca nas invocações supremas e na clareza do HUD. A Hydra e o

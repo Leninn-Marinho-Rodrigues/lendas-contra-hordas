@@ -8,6 +8,32 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.4.1 - 2026-05-19
+
+### Árvore longa das invocações supremas
+
+- Hydra Titânica e Beholder Titânico agora têm 16 marcos de farm, mantendo os
+  8 marcos antigos e adicionando uma camada longa para runs avançadas.
+- Hydra recebeu marcos novos como Pele Regenerativa, Colheita de Dungeon,
+  Mordida de Elite, Muralha de Cabeças, Sangue Soberano, Devoradora Lendária,
+  Guarda Abissal e Rainha do Fim da Run.
+- Beholder recebeu Campo Antimagia, Olho Cartógrafo, Geometria Impossível,
+  Protocolo de Contingência, Oráculo de Elites, Labirinto Mental, Núcleo
+  Regenerativo e Mente Onisciente.
+- Os novos marcos têm efeitos reais: cura, escudo, debuffs, controle de campo,
+  zonas na saída da dungeon, coleta de recursos, cristais, baús e itens em
+  abates raros.
+- O HUD de invocações lendárias foi ajustado para exibir os 16 marcos, grupos de
+  habilidade e progresso sem perder a leitura.
+- Foram adicionados novos prints e GIF público da progressão lendária 1.4.1.
+
+### Save e teste local
+
+- A atualização preserva as mesmas chaves de save da Hydra e do Beholder, então
+  os stacks antigos continuam válidos.
+- O save local do desenvolvedor foi preparado para teste com as quatro melhorias
+  permanentes lendárias liberadas.
+
 ## Versão 1.4 - 2026-05-19
 
 ### Invocações lendárias e HUD de progressão

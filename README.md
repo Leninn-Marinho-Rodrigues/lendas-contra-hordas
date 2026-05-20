@@ -17,33 +17,32 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.4**
+**Versão pública atual: 1.4.1**
 
-Esta versão melhora as invocações lendárias e a leitura de progressão no
-inventário. Hydra Titânica e Beholder Titânico agora mostram uma barra de farm
-com marcos, categorias de habilidade, próximos poderes e descrições mais claras
-do que já foi liberado e do que ainda pode evoluir.
+Esta versão amplia a árvore de farm das invocações supremas. Hydra Titânica e
+Beholder Titânico agora têm 16 marcos de evolução, com novas habilidades de
+defesa, controle, coleta de recursos em dungeon e resgates do mestre em momentos
+críticos.
 
-### O que mudou na 1.4
+### O que mudou na 1.4.1
 
-- **HUD lendário novo:** a aba de invocações lendárias ganhou barra de progresso
-  animada, nós por marco e categorias visuais.
-- **Progressão clara:** cada marco mostra se é ofensivo, defensivo, controle,
-  oportunidade ou estágio apex.
-- **Hydra mais legível:** o jogador entende melhor como a Hydra devora, protege,
-  domina áreas e vira uma chefe aliada permanente.
-- **Beholder mais inteligente:** o Beholder ganhou regeneração, proteção do mago,
-  reposicionamento e matriz de oportunidade para eventos e dungeons.
-- **Sprite do Beholder atualizado:** nova sprite sheet gerada no Gemini,
-  normalizada para fundo transparente e validada na pipeline strict.
-- **Farm preservado:** Hydra e Beholder ressurgem sem perder stacks, dano, vida
-  ou velocidade conquistados em runs longas.
+- **Árvore estendida:** Hydra e Beholder passam de 8 para 16 marcos de farm.
+- **Hydra mais útil em dungeons:** colheita de dungeon, muralha de cabeças,
+  escudo mais forte, zonas ácidas no portal e recompensas extras em abates raros.
+- **Beholder mais estratégico:** telemetria arcana, campo antimagia, bolhas de
+  fase, coleta de recursos e proteção mais inteligente para o Mago.
+- **Farm com função real:** os novos marcos não são só texto; eles ativam cura,
+  controle de campo, debuffs, drops e proteção em situações perigosas.
+- **Novas mídias públicas:** prints e GIF mostram a nova trilha lendária e uma
+  cena de dungeon com os efeitos ativos.
 - **Save preservado:** a build mantém a busca e mescla de saves antigos, evitando
   perda de progresso entre versões.
 
 ## Preview
 
 ![Gameplay preview](media/gameplay-preview.gif)
+
+![Árvore lendária 1.4.1](media/legendary-summons-v1-4-1.gif)
 
 ## Galeria
 
@@ -67,6 +66,12 @@ do que já foi liberado e do que ainda pode evoluir.
 | --- |
 | ![Progressão de invocações lendárias](media/screenshots/legendary-summons-progress.png) |
 
+| Novidades 1.4.1 |
+| --- |
+| ![Árvore de farm 1.4.1](media/screenshots/legendary-summons-v1-4-1-top.png) |
+| ![Marcos longos 1.4.1](media/screenshots/legendary-summons-v1-4-1-tree.png) |
+| ![Colheita lendária em dungeon](media/screenshots/legendary-dungeon-harvest-v1-4-1.png) |
+
 ## O que o jogo tem
 
 - Combate em tempo real contra hordas.
@@ -83,7 +88,7 @@ do que já foi liberado e do que ainda pode evoluir.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.4/LendasContraHordas-Windows-v1.4.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.4.1/LendasContraHordas-Windows-v1.4.1.zip
 ```
 
 ### Como baixar e jogar
@@ -102,7 +107,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.4`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.4.1`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -125,13 +130,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.4
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.4.1
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.4.zip
+LendasContraHordas-Windows-v1.4.1.zip
 ```
 
 ## Controles
