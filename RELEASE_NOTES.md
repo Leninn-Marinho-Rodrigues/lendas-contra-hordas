@@ -3,19 +3,25 @@
 ## Versão 1.4.1
 
 Esta correção evolui a atualização 1.4: a Hydra Titânica e o Beholder Titânico
-agora têm uma árvore de farm mais longa, com 16 marcos e efeitos jogáveis para
-runs avançadas, dungeons e situações de emergência.
+agora têm uma árvore de farm mais longa, com 25 marcos e efeitos jogáveis para
+runs avançadas, dungeons, situações de emergência e saves com farm extremo acima
+de 5.000 abates/focos.
 
 ### Principais mudanças desde a 1.4
 
-- Árvore de farm das invocações supremas expandida de 8 para 16 marcos.
+- Árvore de farm das invocações supremas expandida de 16 para 25 marcos.
+- Hydra agora escala até 30.000 banquetes; Beholder escala até 56.000 focos
+  arcanos.
 - Hydra ganhou colheita de dungeon, recompensas extras em abates raros, defesa
-  mais forte, muralha de cabeças, zonas ácidas na saída da dungeon e mais
-  regeneração.
+  mais forte, muralha de cabeças, mordida de cerco, zonas ácidas na saída da
+  dungeon e mais regeneração.
 - Beholder ganhou telemetria arcana, campo antimagia, cura de contingência,
-  bolhas de fase, foco em elites e melhor aproveitamento de recursos de dungeon.
-- O HUD de invocações lendárias agora apresenta a trilha longa, grupos de
-  habilidade e marcos futuros com mais espaço visual.
+  bolhas de fase, raios adicionais, foco em elites e melhor aproveitamento de
+  recursos de dungeon.
+- O HUD de invocações lendárias agora apresenta a trilha longa, símbolos de
+  categoria, grupos de habilidade e marcos futuros com mais espaço visual.
+- Foram adicionados sons próprios para mordida, rugido profundo e passos da
+  Hydra, além de raio, feixe central e cúpula antimagia do Beholder.
 - Novas mídias públicas foram adicionadas: GIF da árvore lendária, prints da
   progressão e imagem de dungeon com os efeitos ativos.
 - Save segue compatível com versões anteriores e preserva farm já acumulado.

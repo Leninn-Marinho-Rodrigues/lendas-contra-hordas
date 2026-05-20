@@ -19,18 +19,27 @@ documentos internos de design continuam privados.
 
 **Versão pública atual: 1.4.1**
 
-Esta versão amplia a árvore de farm das invocações supremas. Hydra Titânica e
-Beholder Titânico agora têm 16 marcos de evolução, com novas habilidades de
-defesa, controle, coleta de recursos em dungeon e resgates do mestre em momentos
-críticos.
+Esta versão amplia novamente a árvore de farm das invocações supremas. Hydra
+Titânica e Beholder Titânico agora têm 25 marcos de evolução, incluindo metas de
+farm extremo acima de 5.000 abates/focos e recompensas de longo prazo para quem
+quer transformar essas criaturas em objetivos de campanha.
 
 ### O que mudou na 1.4.1
 
-- **Árvore estendida:** Hydra e Beholder passam de 8 para 16 marcos de farm.
+- **Árvore estendida:** Hydra e Beholder passam de 16 para 25 marcos de farm.
+- **Farm extremo:** novos marcos chegam a 30.000 banquetes da Hydra e 56.000
+  focos do Beholder, com upgrades pensados para runs e saves muito avançados.
 - **Hydra mais útil em dungeons:** colheita de dungeon, muralha de cabeças,
-  escudo mais forte, zonas ácidas no portal e recompensas extras em abates raros.
+  escudo mais forte, zonas ácidas no portal, mordida de cerco e recompensas
+  extras em abates raros.
 - **Beholder mais estratégico:** telemetria arcana, campo antimagia, bolhas de
-  fase, coleta de recursos e proteção mais inteligente para o Mago.
+  fase, coleta de recursos, raios próprios e proteção mais inteligente para o
+  Mago.
+- **Áudio lendário:** Hydra recebeu mordida, rugido profundo e passos pesados
+  adicionais; Beholder recebeu sons próprios de raio, feixe central e cúpula
+  antimagia.
+- **Ícones mais claros:** a aba de invocações lendárias usa símbolos visuais para
+  ofensiva, defesa, controle, oportunidade e ápice.
 - **Farm com função real:** os novos marcos não são só texto; eles ativam cura,
   controle de campo, debuffs, drops e proteção em situações perigosas.
 - **Novas mídias públicas:** prints e GIF mostram a nova trilha lendária e uma

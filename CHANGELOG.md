@@ -12,19 +12,29 @@ As versões públicas seguem uma numeração simples:
 
 ### Árvore longa das invocações supremas
 
-- Hydra Titânica e Beholder Titânico agora têm 16 marcos de farm, mantendo os
-  8 marcos antigos e adicionando uma camada longa para runs avançadas.
+- Hydra Titânica e Beholder Titânico agora têm 25 marcos de farm, mantendo os
+  marcos antigos e adicionando uma camada de farm extremo para saves avançados.
 - Hydra recebeu marcos novos como Pele Regenerativa, Colheita de Dungeon,
   Mordida de Elite, Muralha de Cabeças, Sangue Soberano, Devoradora Lendária,
   Guarda Abissal e Rainha do Fim da Run.
 - Beholder recebeu Campo Antimagia, Olho Cartógrafo, Geometria Impossível,
   Protocolo de Contingência, Oráculo de Elites, Labirinto Mental, Núcleo
   Regenerativo e Mente Onisciente.
+- A trilha longa agora continua além de 5.000 de farm: Hydra chega a 30.000
+  banquetes e Beholder chega a 56.000 focos arcanos.
+- A Hydra ganhou Caçada Primordial, Coração de Leviatã, Ninho de Relíquias,
+  Mandíbula de Cerco, Sangue Imortal, Três Tronos, Guardiã do Abismo,
+  Devora-Mundos e Hydra Eterna.
+- O Beholder ganhou Grande Beholder, Olho do Labirinto, Análise Predatória,
+  Cúpula Antimagia, Arquitetura Impossível, Tesoureiro Arcano, Mente de Cerco,
+  Oráculo Imortal e Olho Onisciente.
 - Os novos marcos têm efeitos reais: cura, escudo, debuffs, controle de campo,
   zonas na saída da dungeon, coleta de recursos, cristais, baús e itens em
   abates raros.
-- O HUD de invocações lendárias foi ajustado para exibir os 16 marcos, grupos de
-  habilidade e progresso sem perder a leitura.
+- O HUD de invocações lendárias foi ajustado para exibir 25 marcos, símbolos
+  visuais de categoria, grupos de habilidade e progresso sem perder a leitura.
+- Novos efeitos sonoros dedicados foram adicionados para mordida, rugido profundo
+  e passos da Hydra, além de raio, feixe central e cúpula antimagia do Beholder.
 - Foram adicionados novos prints e GIF público da progressão lendária 1.4.1.
 
 ### Save e teste local
