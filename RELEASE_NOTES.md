@@ -1,5 +1,56 @@
 # Release Notes
 
+## Versão 1.5
+
+Esta atualização coloca o **Alquimista** como nova classe jogável pública. Ele é
+um personagem de ciência mágica: arremessa frascos, cria mutações, prepara
+poções e usa ingredientes coletados durante a partida para abrir uma progressão
+própria na Mesa Alquímica.
+
+### Principais mudanças desde a 1.4.5
+
+- Nova classe Alquimista com identidade de poções, frascos, mutações, explosões,
+  venenos, controle e suporte.
+- Mesa Alquímica separada das melhorias por nível: quando o jogador coleta
+  ingredientes suficientes, escolhe receitas de alquimia sem gastar os espaços
+  normais da composição.
+- Homúncula principal implementada como parceira do Alquimista: coleta apenas
+  ingredientes, ataca, acumula biomassa, protege o mestre e revive sem perder o
+  progresso conquistado.
+- Nova árvore de receitas da Homúncula com ganhos ofensivos, defensivos, coleta,
+  regeneração, escudos, duplicação de ingredientes e controle de campo.
+- Alquimista recebeu sprites validados por estágios de evolução visual.
+- Homúncula recebeu 20 estágios visuais, do gel instável inicial até a forma
+  final arcana.
+- Cards de personagens no menu ficaram mais explicativos para Guerreiro, Mago,
+  Arqueiro, Invocador e Alquimista.
+- O sistema de save continua preservando progresso antigo fora da pasta do jogo.
+
+### Como o Alquimista joga
+
+O Alquimista tem dois ritmos ao mesmo tempo. Por nível, ele escolhe habilidades e
+passivas como as outras classes. Por ingredientes, ele abre a Mesa Alquímica e
+prepara efeitos adicionais para a própria partida: poções de dano, defesa, coleta,
+regeneração, efeitos ativos e melhorias para a Homúncula.
+
+A Homúncula é a peça mais importante da classe. Ela começa simples, coleta
+reagentes, cresce devagar, ganha receitas próprias e aprende a proteger o
+Alquimista conforme acumula biomassa. A ideia é que o jogador sinta que está
+criando e refinando uma criatura única ao longo das partidas.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.4.5
 
 Esta atualização foca no Beholder Titânico como uma criatura lendária realmente

@@ -8,6 +8,43 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5 - 2026-05-22
+
+### Nova classe Alquimista
+
+- Adicionada a classe Alquimista, focada em frascos, bombas, mutações, poções,
+  ciência mágica e biologia instável.
+- O Alquimista usa a progressão normal por nível, com habilidades e passivas da
+  própria classe, mas também possui uma trilha separada por ingredientes.
+- Ingredientes alquímicos caem durante a partida e podem abrir a Mesa Alquímica,
+  onde o jogador escolhe receitas de poções, mutações e melhorias.
+- A progressão por ingredientes não ocupa o limite normal da composição, criando uma
+  identidade própria para o Alquimista sem quebrar a regra de slots.
+
+### Homúncula e receitas
+
+- Homúncula principal agora acompanha o Alquimista em combate, coleta apenas
+  ingredientes, ataca inimigos, acumula biomassa e protege o mestre.
+- A Homúncula revive depois de morrer sem perder o progresso já conquistado.
+- Adicionada uma árvore de receitas dedicada para a Homúncula: Tecido Reforçado,
+  Núcleo Faminto, Membrana Guardiã, Mãos Alquímicas, Síntese Dupla, Instinto
+  Protetor, Ritual de Renascimento e Mimetismo Mutagênico.
+- As receitas aumentam vida, regeneração, dano, velocidade, coleta, rendimento de
+  ingredientes, escudos, controle de campo e comportamento protetor.
+- O visual da Homúncula possui 20 estágios, começando como gel instável e
+  avançando aos poucos até uma forma arcana final.
+
+### Interface e apresentação
+
+- Cards de detalhes dos heróis foram reescritos para explicar melhor como cada
+  classe joga, suas passivas, lendárias, riscos e pontos fortes.
+- O card do Alquimista agora descreve Mesa Alquímica, ingredientes, Homúncula,
+  receitas e a diferença entre melhorias por nível e progressão por alquimia.
+- A vitrine pública recebeu imagens da evolução visual do Alquimista e da
+  Homúncula.
+- Save continua fora da pasta do jogo e a atualização mantém compatibilidade com
+  progresso antigo.
+
 ## Versão 1.4.5 - 2026-05-20
 
 ### IA adaptativa do Beholder
