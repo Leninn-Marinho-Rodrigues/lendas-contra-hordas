@@ -17,14 +17,28 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.5**
+**Versão pública atual: 1.5.1**
 
-Esta versão adiciona a classe **Alquimista** como uma nova forma de jogar. Ele
-continua usando a progressão normal por nível, mas ganha também uma camada única
-de ingredientes e Mesa Alquímica: ao coletar reagentes na partida, o jogador prepara
-poções, mutações e melhorias para si mesmo e para a Homúncula.
+Esta versão estabiliza a classe **Alquimista** e melhora o comportamento da
+**Homúncula**. Ela continua sendo a parceira evolutiva do Alquimista, mas agora a
+forma final fica perto do mestre, conjura magias e puxa ingredientes por vórtice
+em vez de atravessar o mapa atrás de cada item.
 
-### O que mudou na 1.5
+### O que mudou na 1.5.1
+
+- **Homúncula mais controlada:** limite de velocidade para impedir movimentos
+  bruscos ou saltos visuais pelo mapa.
+- **Coleta por vórtice:** ingredientes alquímicos passam a ser atraídos para a
+  Homúncula e para o Alquimista, reduzindo deslocamentos exagerados.
+- **Forma final como guardiã:** no estágio 20, a Homúncula permanece próxima do
+  Alquimista, orbitando, lançando maldições, conjurando proteções e auxiliando a
+  luta sem abandonar o mestre.
+- **Mídia pública nova:** GIF e prints mostram a Mesa Alquímica, a progressão da
+  Homúncula e o vórtice de ingredientes funcionando.
+- **Build Windows atualizada:** pacote de download recriado mantendo o save fora
+  da pasta do jogo, para preservar progresso entre atualizações.
+
+### Base adicionada na 1.5
 
 - **Nova classe jogável: Alquimista:** frascos, bombas, mutações, poções e
   alquimia mágica em uma classe flexível de dano, defesa, recursos e suporte.
@@ -45,6 +59,8 @@ poções, mutações e melhorias para si mesmo e para a Homúncula.
   jogo, com busca e mescla de progresso antigo para não apagar conquistas.
 
 ## Preview
+
+![Alquimista e Homúncula](media/alchemist-homuncula-v1-5-1.gif)
 
 ![Gameplay preview](media/gameplay-preview.gif)
 
@@ -83,6 +99,12 @@ poções, mutações e melhorias para si mesmo e para a Homúncula.
 | ![20 estágios da Homúncula](media/screenshots/homuncula-tier-progression-v1-5.png) |
 | ![Conceito da Mesa Alquímica](media/screenshots/alchemy-table-concept-v1-5.png) |
 
+| Ajustes 1.5.1 |
+| --- |
+| ![Homúncula atraindo ingredientes](media/screenshots/alchemist-homuncula-vortex-v1-5-1.png) |
+| ![Mesa Alquímica em jogo](media/screenshots/alchemy-table-runtime-v1-5-1.png) |
+| ![Card da Homúncula no HUD](media/screenshots/homuncula-status-card-v1-5-1.png) |
+
 | Novidades 1.4.5 |
 | --- |
 | ![Evidência da IA do Beholder](media/screenshots/beholder-ai-v1-4-5-summary.png) |
@@ -111,13 +133,13 @@ poções, mutações e melhorias para si mesmo e para a Homúncula.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5/LendasContraHordas-Windows-v1.5.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.1/LendasContraHordas-Windows-v1.5.1.zip
 ```
 
 ### Como baixar e jogar
 
 1. Clique no link de download acima.
-2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 440 MB.
+2. Aguarde o arquivo `.zip` baixar. Ele tem cerca de 520 MB.
 3. Clique com o botão direito no arquivo baixado e escolha **Extrair tudo**.
 4. Abra a pasta extraída.
 5. Dê dois cliques em `Jogar Lendas Contra Hordas.lnk`.
@@ -130,7 +152,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.1`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -153,13 +175,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.1
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.5.zip
+LendasContraHordas-Windows-v1.5.1.zip
 ```
 
 ## Controles

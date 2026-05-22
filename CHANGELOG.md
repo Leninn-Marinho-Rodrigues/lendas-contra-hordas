@@ -8,6 +8,30 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5.1 - 2026-05-22
+
+### Homúncula e Alquimista
+
+- Homúncula recebeu limite de velocidade para parar de saltar visualmente de um
+  ponto a outro do mapa.
+- Ingredientes alquímicos agora são atraídos por vórtice para a Homúncula e para
+  o Alquimista.
+- A forma final da Homúncula não corre mais atrás dos itens pelo mapa; ela fica
+  próxima do Alquimista, orbitando em velocidade constante.
+- No estágio 20, a Homúncula prioriza papel de bruxa guardiã: conjura maldições,
+  proteções, magias de controle e suporte sem abandonar o mestre.
+- O comportamento novo mantém a coleta de ingredientes e a Mesa Alquímica sem
+  alterar o save nem apagar progresso.
+
+### Mídia, build e publicação
+
+- Adicionado GIF público do Alquimista com a Homúncula final em campo.
+- Adicionados prints da Mesa Alquímica em jogo, do vórtice de ingredientes e do
+  card da Homúncula no HUD.
+- Versão do jogo atualizada para `1.5.1`.
+- Build Windows recriada para download como
+  `LendasContraHordas-Windows-v1.5.1.zip`.
+
 ## Versão 1.5 - 2026-05-22
 
 ### Nova classe Alquimista

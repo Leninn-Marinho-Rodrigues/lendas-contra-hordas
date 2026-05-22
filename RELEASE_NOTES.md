@@ -1,5 +1,54 @@
 # Release Notes
 
+## Versão 1.5.1
+
+Esta atualização consolida a estreia do **Alquimista** e corrige o comportamento
+da **Homúncula** em campo. A forma final agora atua como companheira guardiã:
+fica próxima do Alquimista, orbita em velocidade controlada, conjura maldições e
+proteções, e atrai ingredientes alquímicos por vórtice.
+
+### Principais mudanças desde a 1.5
+
+- Homúncula recebeu limite de velocidade para evitar deslocamentos bruscos pelo
+  mapa.
+- Ingredientes alquímicos passam a ser puxados para a Homúncula e para o
+  Alquimista, em vez de exigir que ela corra atrás de cada item.
+- No estágio 20, a Homúncula deixa de explorar o mapa e permanece como bruxa
+  voadora perto do Alquimista, ajudando com magias, maldições, proteções e
+  controle de campo.
+- A lógica preserva a identidade da classe: o Alquimista continua coletando
+  reagentes, abrindo a Mesa Alquímica e melhorando receitas sem ocupar slots de
+  habilidade.
+- Foram adicionados novos materiais públicos: GIF da Homúncula em campo, print
+  da Mesa Alquímica e print do card de progressão da Homúncula.
+- Build Windows recriada com a versão `1.5.1`, mantendo o save fora da pasta do
+  jogo para preservar progresso entre atualizações.
+
+### Como o Alquimista joga
+
+O Alquimista tem duas camadas de evolução. Por nível, ele escolhe habilidades e
+passivas como as outras classes. Por ingredientes, ele usa a Mesa Alquímica para
+preparar poções, mutações e melhorias separadas. A Homúncula é o coração dessa
+segunda camada: coleta reagentes, cresce com biomassa, ganha receitas próprias e
+passa a proteger o criador de forma cada vez mais inteligente.
+
+Na forma final, a Homúncula deixa claro seu papel: não é uma coletora frenética,
+mas uma bruxa guardiã que fica ao lado do Alquimista e transforma o campo em
+território alquímico.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.1.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.5
 
 Esta atualização coloca o **Alquimista** como nova classe jogável pública. Ele é
