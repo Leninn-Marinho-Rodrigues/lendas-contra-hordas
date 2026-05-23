@@ -17,12 +17,24 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.5.1**
+**Versão pública atual: 1.5.2**
 
-Esta versão estabiliza a classe **Alquimista** e melhora o comportamento da
-**Homúncula**. Ela continua sendo a parceira evolutiva do Alquimista, mas agora a
-forma final fica perto do mestre, conjura magias e puxa ingredientes por vórtice
-em vez de atravessar o mapa atrás de cada item.
+Esta versão amplia a identidade de controle de mapa do **Alquimista**. A Mesa
+Alquímica agora tem novas misturas para contaminar, desacelerar e prender hordas
+sem aumentar o excesso de projéteis na tela.
+
+### O que mudou na 1.5.2
+
+- **Miasma Andarilho:** bolsões de gás tóxico surgem em aglomerações,
+  envenenam a horda e semeiam Praga Alquímica.
+- **Esporos Contagiosos:** o contágio salta entre monstros, acelera a propagação
+  da praga e empilha stacks com facilidade.
+- **Lodo Epidêmico:** cria áreas vivas que prendem, desaceleram, corroem defesas
+  e deixam focos de contágio pelo mapa.
+- **Controle sem spam visual:** as novas misturas usam áreas persistentes,
+  contágio e efeitos de campo, evitando voltar ao excesso de projéteis.
+- **Build Windows atualizada:** pacote de download recriado como
+  `LendasContraHordas-Windows-v1.5.2.zip`, mantendo o save fora da pasta do jogo.
 
 ### O que mudou na 1.5.1
 
@@ -62,6 +74,8 @@ em vez de atravessar o mapa atrás de cada item.
 
 ![Alquimista e Homúncula](media/alchemist-homuncula-v1-5-1.gif)
 
+![Controle alquímico 1.5.2](media/alchemy-control-v1-5-2.gif)
+
 ![Gameplay preview](media/gameplay-preview.gif)
 
 ![Beholder protegendo o Mago](media/beholder-ai-v1-4-5-guard.gif)
@@ -99,6 +113,10 @@ em vez de atravessar o mapa atrás de cada item.
 | ![20 estágios da Homúncula](media/screenshots/homuncula-tier-progression-v1-5.png) |
 | ![Conceito da Mesa Alquímica](media/screenshots/alchemy-table-concept-v1-5.png) |
 
+| Ajustes 1.5.2 |
+| --- |
+| ![Controle alquímico de mapa](media/screenshots/alchemy-control-v1-5-2.png) |
+
 | Ajustes 1.5.1 |
 | --- |
 | ![Homúncula atraindo ingredientes](media/screenshots/alchemist-homuncula-vortex-v1-5-1.png) |
@@ -133,7 +151,7 @@ em vez de atravessar o mapa atrás de cada item.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.1/LendasContraHordas-Windows-v1.5.1.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.2/LendasContraHordas-Windows-v1.5.2.zip
 ```
 
 ### Como baixar e jogar
@@ -152,7 +170,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.1`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.2`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -175,13 +193,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.1
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.2
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.5.1.zip
+LendasContraHordas-Windows-v1.5.2.zip
 ```
 
 ## Controles

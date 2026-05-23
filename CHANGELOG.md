@@ -8,6 +8,31 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5.2 - 2026-05-23
+
+### Controle alquímico de mapa
+
+- Adicionada a receita **Miasma Andarilho**, que cria bolsões de gás tóxico em
+  aglomerações, envenena monstros e semeia Praga Alquímica.
+- Adicionada a receita **Esporos Contagiosos**, que faz o contágio saltar entre
+  monstros próximos, acelera a propagação e empilha stacks de praga.
+- Adicionada a receita **Lodo Epidêmico**, que prende, desacelera, corrói defesas
+  e cria focos de contágio em áreas de horda.
+- As novas misturas conversam com a Praga Alquímica existente e aumentam o
+  potencial de controle de mapa do Alquimista sem criar spam de projéteis.
+- Poções básicas de veneno e ácido também passam a se beneficiar desses novos
+  caminhos de alquimia.
+
+### Build, mídia e validação
+
+- Versão do jogo atualizada para `1.5.2`.
+- Adicionado GIF/print público mostrando as três novas linhas de controle
+  alquímico.
+- Build Windows recriada para download como
+  `LendasContraHordas-Windows-v1.5.2.zip`.
+- Validação local executada com suíte completa e smoke test do executável.
+- Save continua fora da pasta do jogo e não foi alterado pela atualização.
+
 ## Versão 1.5.1 - 2026-05-22
 
 ### Homúncula e Alquimista

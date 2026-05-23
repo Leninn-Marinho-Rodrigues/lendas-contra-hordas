@@ -1,5 +1,47 @@
 # Release Notes
 
+## Versão 1.5.2
+
+Esta atualização aumenta o poder de controle de mapa do **Alquimista** dentro da
+Mesa Alquímica. A classe agora pode transformar grupos de monstros em focos de
+contágio, gás e lodo vivo, limpando hordas com efeitos de campo em vez de
+encher a tela de projéteis.
+
+### Principais mudanças desde a 1.5.1
+
+- **Miasma Andarilho:** cria bolsões de gás tóxico em aglomerações, causa veneno
+  e semeia Praga Alquímica.
+- **Esporos Contagiosos:** faz a praga saltar entre monstros próximos, empilhar
+  stacks e acelerar o efeito de pandemia.
+- **Lodo Epidêmico:** prende, desacelera, deixa alvos vulneráveis e cria zonas
+  vivas de contágio.
+- As novas receitas fortalecem a Praga Alquímica, venenos e poções ácidas do
+  Alquimista.
+- As habilidades foram feitas com áreas persistentes e contágio para preservar
+  leitura visual e desempenho.
+- O executável Windows foi recriado com a versão `1.5.2` e validado localmente.
+
+### Como o Alquimista joga agora
+
+O Alquimista continua com duas camadas de evolução: habilidades por nível e
+receitas por ingredientes. A novidade é que a camada de ingredientes ganhou
+ferramentas fortes de controle de mapa. Em vez de depender só de explosões ou
+frascos diretos, ele pode preparar uma horda para se contaminar sozinha, travar
+zonas perigosas e reduzir pressão no fim da run.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.2.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.5.1
 
 Esta atualização consolida a estreia do **Alquimista** e corrige o comportamento
