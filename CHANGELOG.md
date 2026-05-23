@@ -8,6 +8,33 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5.4 - 2026-05-23
+
+### HUD, alquimia forçada e Homúncula ofensiva
+
+- HUD do Alquimista foi ampliado e reorganizado para evitar textos cortados,
+  sobreposição com eventos e perda de leitura durante combate.
+- Ingredientes alquímicos acumulados em excesso agora disparam criações
+  automáticas rápidas, evitando que o Alquimista passe muito tempo com recursos
+  parados sem usar a Mesa Alquímica.
+- A barra do HUD mostra melhor o progresso até o limite de criação forçada.
+- Homúncula no estágio final ficou levemente mais alta que o Alquimista e tenta
+  conjurar magias ofensivas com mais frequência, inclusive quando está em modo
+  de guarda.
+- Magias ofensivas da Homúncula final receberam dano base maior para ajudar na
+  limpeza do mapa.
+- Pandemia e Praga Alquímica receberam mais duração, stacks, alcance de
+  contágio, frequência de propagação e alvos por onda.
+
+### Build e validação
+
+- Versão pública atualizada para `1.5.4`.
+- Build Windows recriada para download como
+  `LendasContraHordas-Windows-v1.5.4.zip`.
+- Validação local executada com `308` testes automatizados, auditoria visual de
+  HUD e smoke test do executável.
+- Save continua fora da pasta do jogo e não foi alterado pela atualização.
+
 ## Versão 1.5.3 - 2026-05-23
 
 ### Mutação sobre-humana e pandemias

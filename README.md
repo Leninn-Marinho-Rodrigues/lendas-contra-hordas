@@ -17,13 +17,29 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.5.3**
+**Versão pública atual: 1.5.4**
 
-Esta versão fortalece a fantasia sobre-humana do **Alquimista** e deixa a Mesa
-Alquímica mais dramática. O Alquimista agora pode entrar em Mutação
-Sobre-Humana por 6 minutos, com vida, dano, regeneração e resistência muito
-maiores, enquanto as pragas de nível pandemia se espalham mais rápido e ficam
-mais tempo no campo.
+Esta versão ajusta o **Alquimista** para ficar mais legível, mais ativo e menos
+travado por excesso de ingredientes. O HUD foi esticado e reorganizado para não
+cortar informações, a Mesa Alquímica passa a forçar criações automáticas quando
+o jogador acumula reagentes demais, a Homúncula final fica um pouco mais alta e
+lança magias ofensivas com mais frequência, e a Pandemia se espalha com muito
+mais facilidade entre hordas grandes.
+
+### O que mudou na 1.5.4
+
+- **HUD do Alquimista sem corte:** ingredientes, progresso, atalhos e eventos
+  foram reposicionados para não invadir ou esconder informações importantes.
+- **Alquimia forçada por excesso:** ao passar do limite seguro de ingredientes,
+  o sistema acelera criações automáticas em sequência antes de deixar o recurso
+  ficar parado.
+- **Homúncula bruxa mais presente:** a forma final ficou levemente mais alta que
+  o Alquimista e tenta conjurar magias ofensivas mesmo enquanto protege o mestre.
+- **Pandemia potencializada:** a praga ganha mais duração, mais stacks e mais
+  alvos por onda de contágio, ajudando a limpar grupos grandes sem poluir a tela
+  com projéteis demais.
+- **Build Windows atualizada:** pacote de download recriado como
+  `LendasContraHordas-Windows-v1.5.4.zip`, mantendo o save fora da pasta do jogo.
 
 ### O que mudou na 1.5.3
 
@@ -90,6 +106,8 @@ mais tempo no campo.
 
 ![Alquimista e Homúncula](media/alchemist-homuncula-v1-5-1.gif)
 
+![HUD e alquimia 1.5.4](media/alchemy-hud-v1-5-4.gif)
+
 ![Controle alquímico 1.5.2](media/alchemy-control-v1-5-2.gif)
 
 ![Gameplay preview](media/gameplay-preview.gif)
@@ -129,6 +147,12 @@ mais tempo no campo.
 | ![20 estágios da Homúncula](media/screenshots/homuncula-tier-progression-v1-5.png) |
 | ![Conceito da Mesa Alquímica](media/screenshots/alchemy-table-concept-v1-5.png) |
 
+| Ajustes 1.5.4 |
+| --- |
+| ![HUD do Alquimista sem corte](media/screenshots/alchemist-hud-runtime-v1-5-4.png) |
+| ![Mesa Alquímica e criação acelerada](media/screenshots/alchemy-table-overflow-v1-5-4.png) |
+| ![Auditoria visual dos HUDs](media/screenshots/hud-text-audit-v1-5-4.png) |
+
 | Ajustes 1.5.2 |
 | --- |
 | ![Controle alquímico de mapa](media/screenshots/alchemy-control-v1-5-2.png) |
@@ -167,7 +191,7 @@ mais tempo no campo.
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.3/LendasContraHordas-Windows-v1.5.3.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.4/LendasContraHordas-Windows-v1.5.4.zip
 ```
 
 ### Como baixar e jogar
@@ -186,7 +210,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.3`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.4`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -209,13 +233,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.3
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.4
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.5.3.zip
+LendasContraHordas-Windows-v1.5.4.zip
 ```
 
 ## Controles

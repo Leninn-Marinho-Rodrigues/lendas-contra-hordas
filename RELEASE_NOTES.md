@@ -1,5 +1,49 @@
 # Release Notes
 
+## Versão 1.5.4
+
+Esta atualização deixa o **Alquimista** mais confortável de jogar no meio do
+caos. O HUD foi ajustado para não cortar informações, ingredientes em excesso
+agora forçam criações automáticas em vez de ficarem parados, a Homúncula final
+ficou mais presente em campo e a Pandemia se espalha com mais força para limpar
+hordas grandes sem voltar ao excesso de projéteis.
+
+### Principais mudanças desde a 1.5.3
+
+- **HUD do Alquimista corrigido:** o painel foi ampliado e os eventos foram
+  empurrados para baixo, evitando sobreposição e textos cortados.
+- **Criação forçada por excesso de ingredientes:** se o jogador acumular muitos
+  reagentes, o sistema acelera receitas automáticas e tenta gastar os recursos
+  antes de abrir outro painel.
+- **Homúncula final maior e mais agressiva:** a bruxa final ficou levemente mais
+  alta que o Alquimista e passa a usar magias ofensivas com mais constância.
+- **Defesa sem passividade:** a Homúncula ainda prioriza proteger o mestre, mas
+  agora tenta atacar e limpar alvos mesmo enquanto está em guarda.
+- **Pandemia reforçada:** a praga recebeu mais duração, stacks, alcance,
+  frequência de contágio e alvos por espalhamento.
+- O executável Windows foi recriado com a versão `1.5.4` e validado localmente.
+
+### Como o Alquimista joga agora
+
+O Alquimista deve ficar menos preso no acúmulo de ingredientes. Quando o jogador
+marca auto-upgrades e começa a acumular reagentes demais, a classe usa o excesso
+para evoluir receitas rapidamente. A Homúncula final fica ao redor do mestre,
+mais alta e mais ativa, usando magia para aliviar a pressão do mapa enquanto a
+Pandemia corrói grupos inteiros.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.4.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.5.3
 
 Esta atualização reforça o **Alquimista** como uma criatura de ciência mágica,
