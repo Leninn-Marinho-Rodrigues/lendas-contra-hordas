@@ -8,6 +8,31 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5.5 - 2026-05-23
+
+### Homúncula Bruxa carismática e suporte inteligente
+
+- Homúncula Bruxa ganhou novas falas de apoio, provocação, cuidado e humor leve,
+  reforçando a personalidade dela na forma final.
+- O intervalo das falas foi ajustado para a Bruxa comentar mais durante a run sem
+  repetir a mesma frase o tempo todo.
+- Quando acompanha o Alquimista no mercador, a Homúncula Bruxa negocia desconto
+  e mostra isso no HUD da loja.
+- Ao escolher uma melhoria muito fraca no level-up enquanto existem opções boas
+  disponíveis, a Bruxa pode dar um puxão de orelha, guardar a escolha ruim e
+  tentar transformar a decisão em até duas melhorias melhores.
+- A forma final recebeu canal ofensivo separado do ataque básico, mantendo magia
+  de dano ativa mesmo quando a prioridade é proteger o Alquimista.
+
+### Build e validação
+
+- Versão pública atualizada para `1.5.5`.
+- Build Windows recriada para download como
+  `LendasContraHordas-Windows-v1.5.5.zip`.
+- Validação local executada com `317` testes automatizados e smoke test do
+  executável.
+- Save continua fora da pasta do jogo e não foi alterado pela atualização.
+
 ## Versão 1.5.4 - 2026-05-23
 
 ### HUD, alquimia forçada e Homúncula ofensiva

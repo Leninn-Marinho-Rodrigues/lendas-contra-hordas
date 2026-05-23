@@ -1,5 +1,49 @@
 # Release Notes
 
+## Versão 1.5.5
+
+Esta atualização deixa a **Homúncula Bruxa** mais viva, útil e divertida ao lado
+do Alquimista. Ela continua protegendo o mestre, mas agora também conversa mais,
+negocia no mercador, critica escolhas fracas de level-up e tenta transformar
+decisões ruins em oportunidades melhores.
+
+### Principais mudanças desde a 1.5.4
+
+- **Falas mais presentes:** a Homúncula Bruxa recebeu novos comentários curtos
+  para combate, cuidado com o Alquimista, humor leve, provocações e situações de
+  jogo.
+- **Tempo de fala ajustado:** o intervalo entre falas ficou menor, mantendo
+  variedade sem deixar a personagem repetitiva demais.
+- **Desconto com mercador:** se a Homúncula Bruxa final está viva quando o
+  mercador abre, ela negocia preços menores para ajudar o criador.
+- **Correção de escolhas fracas:** ao escolher uma melhoria ruim quando existem
+  boas opções disponíveis, a Bruxa pode guardar a escolha ruim e tentar conceder
+  até duas melhorias melhores.
+- **Ofensiva mais confiável:** a forma final mantém um canal de magia ofensiva
+  separado do ataque básico, limpando inimigos sem perder a prioridade de
+  proteção.
+- O executável Windows foi recriado com a versão `1.5.5` e validado localmente.
+
+### Como o Alquimista joga agora
+
+A Homúncula final deve parecer menos passiva e mais parceira. Ela orbita o
+Alquimista, protege em emergências, ajuda a limpar o mapa e interfere em sistemas
+de suporte como vendedor e level-up. A intenção é que o jogador sinta que a
+Bruxa tem personalidade, inteligência e vontade própria dentro da run.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.5.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.5.4
 
 Esta atualização deixa o **Alquimista** mais confortável de jogar no meio do
