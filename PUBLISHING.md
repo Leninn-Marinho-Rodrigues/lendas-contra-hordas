@@ -45,13 +45,14 @@ v1.4.5
 v1.5
 v1.5.1
 v1.5.2
+v1.5.3
 ```
 
 A versão só deve avançar quando o desenvolvedor pedir uma publicação nova no
 GitHub. Anexe o build Windows como asset da release, por exemplo:
 
 ```text
-LendasContraHordas-Windows-v1.5.2.zip
+LendasContraHordas-Windows-v1.5.3.zip
 ```
 
 Não commit arquivos `.exe` ou `.zip` no repositório.

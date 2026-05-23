@@ -8,6 +8,31 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
+## Versão 1.5.3 - 2026-05-23
+
+### Mutação sobre-humana e pandemias
+
+- Adicionada a receita **Mutação Sobre-Humana** para o Alquimista, com duração
+  de 6 minutos.
+- Enquanto a mutação está ativa, o Alquimista recebe vida temporária muito maior,
+  dano triplicado, regeneração alta, regeneração percentual, armadura, escudo e
+  resistência reforçada.
+- A Mesa Alquímica manual agora pausa a partida por 6 segundos, mostrando o
+  Alquimista preparando itens e poções antes de devolver o jogador ao combate.
+- Pragas de nível pandemia passam a durar mais, espalhar mais rápido, atingir
+  distâncias maiores e renovar melhor o tempo em monstros reinfectados.
+- A Homúncula mantém a curva acelerada para chegar mais cedo à forma final de
+  bruxa guardiã com arsenal ampliado.
+
+### Build e validação
+
+- Versão pública atualizada para `1.5.3`.
+- Build Windows recriada para download como
+  `LendasContraHordas-Windows-v1.5.3.zip`.
+- Validação local executada com `306` testes automatizados e smoke test do
+  executável.
+- Save continua fora da pasta do jogo e não foi alterado pela atualização.
+
 ## Versão 1.5.2 - 2026-05-23
 
 ### Controle alquímico de mapa

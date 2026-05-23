@@ -1,5 +1,48 @@
 # Release Notes
 
+## Versão 1.5.3
+
+Esta atualização reforça o **Alquimista** como uma criatura de ciência mágica,
+menos humana e mais sobre-humana. A Mesa Alquímica ganhou uma mutação de 6
+minutos para transformar o personagem em um corpo resistente, regenerativo e
+perigoso, enquanto as pragas de nível pandemia ficaram mais persistentes e
+agressivas no campo.
+
+### Principais mudanças desde a 1.5.2
+
+- **Mutação Sobre-Humana:** nova receita que dura 6 minutos e aumenta
+  drasticamente vida temporária, dano, regeneração, armadura, escudo e
+  resistência.
+- **Dano x3:** durante a mutação, o Alquimista causa três vezes mais dano com
+  suas fontes principais.
+- **Regeneração alta:** a mutação adiciona regeneração plana e percentual para
+  sustentar o personagem no fim das partidas.
+- **Mesa Alquímica com pausa de preparo:** ao escolher uma receita manualmente, a
+  batalha pausa por 6 segundos mostrando o Alquimista construindo itens e poções.
+- **Pandemias mais fortes:** pragas de alto nível espalham mais rápido, duram
+  mais tempo, alcançam mais longe e renovam melhor em monstros reinfectados.
+- O executável Windows foi recriado com a versão `1.5.3` e validado localmente.
+
+### Como o Alquimista joga agora
+
+O Alquimista continua usando frascos, mesa, doenças mágicas e biologia instável,
+mas agora tem um pico defensivo e ofensivo claro. Quando a Mutação Sobre-Humana
+entra, ele consegue suportar mais pressão, recuperar vida com mais segurança e
+manter as pandemias consumindo a horda por mais tempo.
+
+### Arquivo de download
+
+```text
+LendasContraHordas-Windows-v1.5.3.zip
+```
+
+### Como atualizar
+
+Baixe o `.zip`, extraia em uma pasta nova e abra pelo atalho
+`Jogar Lendas Contra Hordas.lnk`. O save principal fica em
+`Saved Games\LendasContraHordas`, fora da pasta do jogo, então a atualização não
+deve apagar o progresso.
+
 ## Versão 1.5.2
 
 Esta atualização aumenta o poder de controle de mapa do **Alquimista** dentro da
