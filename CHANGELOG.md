@@ -1,4 +1,4 @@
-# Changelog
+﻿# Changelog
 
 As versões públicas seguem uma numeração simples:
 
@@ -8,7 +8,7 @@ As versões públicas seguem uma numeração simples:
 - A numeração só avança quando uma nova versão é publicada no GitHub.
 - Builds internas de teste podem existir, mas não entram neste changelog público.
 
-## Versão 1.5.5 - 2026-05-23
+## Versão 1.5.6 - 2026-06-21
 
 ### Homúncula Bruxa carismática e suporte inteligente
 
@@ -24,12 +24,14 @@ As versões públicas seguem uma numeração simples:
 - A forma final recebeu canal ofensivo separado do ataque básico, mantendo magia
   de dano ativa mesmo quando a prioridade é proteger o Alquimista.
 
+- **Projéteis mais limpos:** projéteis repetidos e similares agora são condensados visualmente em batalhas densas, reduzindo poluição de tela sem mexer no dano.
+
 ### Build e validação
 
-- Versão pública atualizada para `1.5.5`.
+- Versão pública atualizada para `1.5.6`.
 - Build Windows recriada para download como
-  `LendasContraHordas-Windows-v1.5.5.zip`.
-- Validação local executada com `317` testes automatizados e smoke test do
+  `LendasContraHordas-Windows-v1.5.6.zip`.
+- Validação local executada com `325` testes automatizados e smoke test do
   executável.
 - Save continua fora da pasta do jogo e não foi alterado pela atualização.
 
@@ -51,7 +53,7 @@ As versões públicas seguem uma numeração simples:
 - Pandemia e Praga Alquímica receberam mais duração, stacks, alcance de
   contágio, frequência de propagação e alvos por onda.
 
-### Build e validação
+- **Projéteis mais limpos:** projéteis repetidos e similares agora são condensados visualmente em batalhas densas, reduzindo poluição de tela sem mexer no dano.`r`n`r`n### Build e validação
 
 - Versão pública atualizada para `1.5.4`.
 - Build Windows recriada para download como
@@ -76,7 +78,7 @@ As versões públicas seguem uma numeração simples:
 - A Homúncula mantém a curva acelerada para chegar mais cedo à forma final de
   bruxa guardiã com arsenal ampliado.
 
-### Build e validação
+- **Projéteis mais limpos:** projéteis repetidos e similares agora são condensados visualmente em batalhas densas, reduzindo poluição de tela sem mexer no dano.`r`n`r`n### Build e validação
 
 - Versão pública atualizada para `1.5.3`.
 - Build Windows recriada para download como
@@ -411,3 +413,6 @@ As versões públicas seguem uma numeração simples:
 - Galeria com prints e GIF.
 - Release pública inicial para Windows.
 - Documentação de feedback, apoio via Pix e proteção do projeto.
+
+
+

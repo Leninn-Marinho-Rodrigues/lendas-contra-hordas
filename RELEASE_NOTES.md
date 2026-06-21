@@ -1,6 +1,6 @@
-# Release Notes
+﻿# Release Notes
 
-## Versão 1.5.5
+## Versão 1.5.6
 
 Esta atualização deixa a **Homúncula Bruxa** mais viva, útil e divertida ao lado
 do Alquimista. Ela continua protegendo o mestre, mas agora também conversa mais,
@@ -22,7 +22,7 @@ decisões ruins em oportunidades melhores.
 - **Ofensiva mais confiável:** a forma final mantém um canal de magia ofensiva
   separado do ataque básico, limpando inimigos sem perder a prioridade de
   proteção.
-- O executável Windows foi recriado com a versão `1.5.5` e validado localmente.
+- O executável Windows foi recriado com a versão `1.5.6` e validado localmente.
 
 ### Como o Alquimista joga agora
 
@@ -34,7 +34,7 @@ Bruxa tem personalidade, inteligência e vontade própria dentro da run.
 ### Arquivo de download
 
 ```text
-LendasContraHordas-Windows-v1.5.5.zip
+LendasContraHordas-Windows-v1.5.6.zip
 ```
 
 ### Como atualizar
@@ -592,3 +592,6 @@ Release asset:
 ```text
 LendasContraHordas-Windows-v0.1.0.zip
 ```
+
+
+

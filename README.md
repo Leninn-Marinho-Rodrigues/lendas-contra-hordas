@@ -1,4 +1,4 @@
-# Lendas contra Hordas
+﻿# Lendas contra Hordas
 
 ![Lendas contra Hordas hero](media/hero.png)
 
@@ -17,7 +17,7 @@ documentos internos de design continuam privados.
 
 ## Versão Atual
 
-**Versão pública atual: 1.5.5**
+**Versão pública atual: 1.5.6**
 
 Esta versão reforça a **Homúncula Bruxa** como companheira viva do Alquimista:
 ela comenta mais situações da run, negocia desconto com o mercador, puxa a
@@ -25,7 +25,7 @@ orelha quando o jogador escolhe uma melhoria muito fraca e tenta guardar essa
 escolha ruim para transformar a decisão em duas opções melhores. A forma final
 também mantém o canal ofensivo mais presente, sem abandonar a proteção do mestre.
 
-### O que mudou na 1.5.5
+### O que mudou na 1.5.6
 
 - **Bruxa mais carismática:** novas falas curtas de apoio, provocação, cuidado e
   humor leve durante a partida.
@@ -38,7 +38,7 @@ também mantém o canal ofensivo mais presente, sem abandonar a proteção do me
   próprio, então pode limpar monstros enquanto ainda monitora a segurança do
   mestre.
 - **Build Windows atualizada:** pacote de download recriado como
-  `LendasContraHordas-Windows-v1.5.5.zip`, mantendo o save fora da pasta do jogo.
+  `LendasContraHordas-Windows-v1.5.6.zip`, mantendo o save fora da pasta do jogo.
 
 ### O que mudou na 1.5.4
 
@@ -205,7 +205,7 @@ também mantém o canal ofensivo mais presente, sem abandonar a proteção do me
 Baixe a build pública mais recente aqui:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.5/LendasContraHordas-Windows-v1.5.5.zip
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/download/v1.5.6/LendasContraHordas-Windows-v1.5.6.zip
 ```
 
 ### Como baixar e jogar
@@ -224,7 +224,7 @@ ainda não possui assinatura digital.
 ### Como atualizar sem perder progresso
 
 1. Baixe o `.zip` da versão nova.
-2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.5`.
+2. Extraia em uma pasta nova, por exemplo `LendasContraHordas-v1.5.6`.
 3. Abra pelo atalho `Jogar Lendas Contra Hordas.lnk`.
 4. O save local fica fora da pasta do jogo, em `Saved Games\LendasContraHordas`.
 5. Por isso, atualizar a pasta do jogo não deve apagar seu progresso.
@@ -247,13 +247,13 @@ Não é necessário instalar Python, abrir terminal ou baixar arquivos paralelos
 Também dá para baixar pela página da release:
 
 ```text
-https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.5
+https://github.com/Leninn-Marinho-Rodrigues/lendas-contra-hordas/releases/tag/v1.5.6
 ```
 
 Nessa página, abra a área **Assets** e baixe:
 
 ```text
-LendasContraHordas-Windows-v1.5.5.zip
+LendasContraHordas-Windows-v1.5.6.zip
 ```
 
 ## Controles
@@ -345,3 +345,6 @@ sem entregar a implementação completa. Veja [NOTICE.md](NOTICE.md) e
 - [Press kit](docs/press-kit.md)
 - [Publicação e proteção](docs/protecao-e-publicacao.md)
 - [Roadmap público](docs/roadmap.md)
+
+
+
