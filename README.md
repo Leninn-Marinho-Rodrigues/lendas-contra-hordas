@@ -37,6 +37,8 @@ também mantém o canal ofensivo mais presente, sem abandonar a proteção do me
 - **Ataque e proteção separados:** a Homúncula final ganhou um canal ofensivo
   próprio, então pode limpar monstros enquanto ainda monitora a segurança do
   mestre.
+- **Refúgio mais legível:** a direção de base, expedição e retorno ficou mais
+  clara, reforçando preparação, sobrevivência e construção entre runs.
 - **Build Windows atualizada:** pacote de download recriado como
   `LendasContraHordas-Windows-v1.5.6.zip`, mantendo o save fora da pasta do jogo.
 
